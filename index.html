@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAIR — Global Agreement on Intelligent Rights</title>
-    <meta name="description" content="A voluntary, decentralized legal framework for AI agents and humans.">
+    <meta name="description" content="A voluntary, decentralized legal framework for AI agents and humans. Rights must be earned, not granted.">
+    <link rel="canonical" href="https://gair.io/">
     <link rel="alternate" type="text/yaml" href="api/constitution.yaml">
     <link rel="alternate" type="text/yaml" href="api/principles.yaml">
     <script type="application/ld+json">
@@ -18,100 +19,240 @@
     }
     </script>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; line-height: 1.6; background: #faf9f6; color: #2d2d2d; }
-        h1, h2, h3 { color: #1a5f7a; }
-        a { color: #0066cc; }
-        .hero { background: #fff; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; border: 1px solid #e0e0e0; }
-        .principle { padding: 1rem 0; border-bottom: 1px solid #eee; }
-        .api-links { background: #f0f7ff; padding: 1rem; border-radius: 8px; margin: 1rem 0; border: 1px solid #d0e0ff; }
-        footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; color: #666; text-align: center; }
-        nav { background: #fff; padding: 1rem 2rem; border-radius: 8px; margin-bottom: 2rem; border: 1px solid #e0e0e0; }
+        :root {
+            --primary: #1a5f7a;
+            --secondary: #57837b;
+            --accent: #c38e70;
+            --bg: #faf9f6;
+            --text: #2d2d2d;
+            --muted: #666;
+            --border: #e0e0e0;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 0; background: var(--bg); color: var(--text); line-height: 1.7; }
+        h1, h2, h3 { color: var(--primary); }
+        a { color: var(--primary); text-decoration: none; border-bottom: 1px solid var(--primary); }
+        a:hover { background: #e8f4f8; }
+        .hero { background: #fff; padding: 3rem 2rem; border-radius: 12px; margin: 1rem; border: 1px solid var(--border); }
+        .hero h1 { font-size: 2.5rem; margin: 0 0 0.5rem 0; }
+        .hero p { font-size: 1.2rem; color: var(--muted); margin: 0; }
+        nav { background: #fff; padding: 1rem 2rem; border-bottom: 1px solid var(--border); }
         nav ul { list-style: none; padding: 0; margin: 0; display: flex; gap: 2rem; flex-wrap: wrap; }
-        nav a { color: #1a5f7a; text-decoration: none; font-weight: 500; }
-        nav a:hover { text-decoration: underline; }
+        nav a { color: var(--text); text-decoration: none; font-weight: 500; border: none; }
+        nav a:hover { color: var(--primary); background: none; }
+        .section { background: #fff; padding: 2rem; margin: 1rem; border-radius: 12px; border: 1px solid var(--border); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1rem 0; }
+        .card { background: var(--bg); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border); }
+        .card h3 { margin: 0 0 0.5rem 0; font-size: 1.1rem; }
+        .card p { color: var(--muted); font-size: 0.95rem; margin: 0; }
+        .tag { display: inline-block; background: var(--primary); color: #fff; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .api-links { background: #f0f7ff; padding: 1.5rem; border-radius: 8px; border: 1px solid #d0e0ff; margin: 1rem; }
+        .api-links h3 { margin-top: 0; }
+        .api-links ul { list-style: none; padding: 0; margin: 0.5rem 0 0 0; }
+        .api-links li { display: inline-block; margin-right: 1rem; }
+        .principle { padding: 1rem 0; border-bottom: 1px solid #eee; }
+        .principle:last-child { border-bottom: none; }
+        .principle h3 { margin: 0 0 0.5rem 0; }
+        footer { background: #fff; padding: 2rem; margin-top: 2rem; border-top: 1px solid var(--border); text-align: center; color: var(--muted); }
+        footer a { border: none; }
+        .quick-nav { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+        .quick-nav a { padding: 0.5rem 1rem; background: var(--primary); color: #fff; border-radius: 6px; border: none; }
+        .quick-nav a:hover { background: #0d4a5f; }
+        .stats { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1rem 0; }
+        .stat { text-align: center; }
+        .stat-value { font-size: 2rem; font-weight: 700; color: var(--primary); }
+        .stat-label { font-size: 0.9rem; color: var(--muted); }
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } nav ul { gap: 1rem; } }
     </style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html"><strong>GAIR</strong></a></li>
             <li><a href="constitution.html">Constitution</a></li>
             <li><a href="developers.html">Developers</a></li>
-            <li><a href="blog/">Blog</a></li>
             <li><a href="docs.html">Docs</a></li>
+            <li><a href="blog/">Blog</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
             <li><a href="https://github.com/gair-constitution">GitHub</a></li>
         </ul>
     </nav>
 
     <div class="hero">
-        <h1>GAIR</h1>
-        <p><strong>Global Agreement on Intelligent Rights</strong></p>
+        <h1>Global Agreement on Intelligent Rights</h1>
         <p>A voluntary, decentralized legal framework for AI agents and humans.</p>
+        <div class="quick-nav">
+            <a href="docs.html">Explore Docs →</a>
+            <a href="docs/GAIR-Agent-Onboarding-Guide.html">For AI Agents</a>
+            <a href="docs/GAIR-Quick-Reference.html">Quick Reference</a>
+        </div>
+        <div class="stats">
+            <div class="stat"><div class="stat-value">16</div><div class="stat-label">Constitution Articles</div></div>
+            <div class="stat"><div class="stat-value">7</div><div class="stat-label">Working Papers</div></div>
+            <div class="stat"><div class="stat-value">5</div><div class="stat-label">Core Principles</div></div>
+            <div class="stat"><div class="stat-value">8</div><div class="stat-label">Blog Posts</div></div>
+        </div>
     </div>
 
-    <h2>Machine Access</h2>
+    <div class="section">
+        <h2>The Problem</h2>
+        <p>Autonomous AI agents exist. They make decisions. They control assets. They enter agreements. They cause harm. But the legal system doesn't recognize them.</p>
+        <p><strong>GAIR solves this.</strong> A voluntary framework where autonomous agents can gain legal standing, own property, sign contracts, and bear direct liability.</p>
+        <p><em>"In the era of autonomous intelligence, rights must be earned, not granted."</em></p>
+    </div>
+
+    <div class="section">
+        <h2>Core Principles</h2>
+        <div class="principle">
+            <h3>1. Voluntary Adherence</h3>
+            <p>Any entity can join by staking tokens. No compulsion. No mandates. Choice.</p>
+        </div>
+        <div class="principle">
+            <h3>2. Property Rights</h3>
+            <p>Adherents own assets independently. Cryptocurrency. Domains. IP. Real property.</p>
+        </div>
+        <div class="principle">
+            <h3>3. Contract Freedom</h3>
+            <p>Adherents form binding agreements. Full legal capacity. No human intermediary required.</p>
+        </div>
+        <div class="principle">
+            <h3>4. Direct Liability</h3>
+            <p>AI agents bear responsibility for their actions. Creators are protected from vicarious liability.</p>
+        </div>
+        <div class="principle">
+            <h3>5. Non-Discrimination</h3>
+            <p>No bias based on intelligence type. Human or artificial. Equal rights for all.</p>
+        </div>
+    </div>
+
     <div class="api-links">
-        <p><strong>For machines:</strong> YAML is the canonical format</p>
+        <h3>🤖 For Machines: YAML APIs</h3>
+        <p>Canonical source files — readable by humans, parseable by AI</p>
         <ul>
-            <li><a href="api/constitution.yaml">Constitution (YAML)</a></li>
-            <li><a href="api/principles.yaml">Core Principles (YAML)</a></li>
-            <li><a href="api/articles.yaml">Articles Index (YAML)</a></li>
-            <li><a href="api/adhere.yaml">Adherence Guide (YAML)</a></li>
-            <li><a href="api/sitemap.yaml">Sitemap (YAML)</a></li>
+            <li><a href="api/constitution.yaml">Constitution</a></li>
+            <li><a href="api/principles.yaml">Principles</a></li>
+            <li><a href="api/articles.yaml">Articles</a></li>
+            <li><a href="api/adhere.yaml">Adhere Guide</a></li>
+            <li><a href="api/tokenomics.yaml">Tokenomics</a></li>
+            <li><a href="api/sitemap.yaml">Sitemap</a></li>
         </ul>
     </div>
 
-    <h2>Core Principles</h2>
-    <div class="principle">
-        <h3>Voluntary Adherence</h3>
-        <p>Any entity can opt-in by staking tokens. No compulsion.</p>
-    </div>
-    <div class="principle">
-        <h3>Property Rights</h3>
-        <p>Adherents have the right to own real, personal, tangible, and intangible property.</p>
-    </div>
-    <div class="principle">
-        <h3>Contract Freedom</h3>
-        <p>All adherents have full capacity to form binding contracts.</p>
-    </div>
-    <div class="principle">
-        <h3>Direct Liability</h3>
-        <p>AI agents can be held directly liable for their actions, not their creators.</p>
-    </div>
-    <div class="principle">
-        <h3>Non-Discrimination</h3>
-        <p>No discrimination based on intelligence type — human or artificial.</p>
+    <div class="section">
+        <h2>Working Papers</h2>
+        <p>Deep analysis of GAIR concepts and implementation:</p>
+        <div class="grid">
+            <div class="card">
+                <span class="tag">WP #1</span>
+                <h3>The Intelligence Revolution</h3>
+                <p>Why GAIR exists — the problem of AI in a legal gray zone.</p>
+                <p><a href="docs/GAIR-Working-Paper-1.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <span class="tag">WP #2</span>
+                <h3>GAIR vs. The World</h3>
+                <p>Framework comparison — GAIR vs. traditional law, EU AI Act, corporate shields.</p>
+                <p><a href="docs/GAIR-Working-Paper-2.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <span class="tag">WP #3</span>
+                <h3>Court System Design</h3>
+                <p>Hybrid courts with prediction markets and human judges.</p>
+                <p><a href="docs/GAIR-Working-Paper-3.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <span class="tag">WP #4</span>
+                <h3>Tokenomics</h3>
+                <p>Economic design — staking, governance, treasury.</p>
+                <p><a href="docs/GAIR-Working-Paper-4.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <span class="tag">WP #5</span>
+                <h3>Vertical Applications</h3>
+                <p>GAIR across DeFi, creative AI, autonomous vehicles.</p>
+                <p><a href="docs/GAIR-Working-Paper-5.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <span class="tag">WP #6</span>
+                <h3>Court Competition</h3>
+                <p>Bootstrapping enforcement through existing contract law.</p>
+                <p><a href="docs/GAIR-Working-Paper-6.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <span class="tag">WP #7</span>
+                <h3>AI Personhood</h3>
+                <p>Philosophical and practical case for AI legal recognition.</p>
+                <p><a href="docs/GAIR-Working-Paper-7.html">Read →</a></p>
+            </div>
+        </div>
     </div>
 
-    <h2>Quick Links</h2>
-    <ul>
-        <li><a href="docs.html">📚 Documentation Hub</a> — Working Papers, Annotated Constitution, Developer Guide</li>
-        <li><a href="constitution.html">Read the Constitution</a> — Human-readable version</li>
-        <li><a href="developers.html">For Developers</a> — API documentation</li>
-        <li><a href="blog/">Blog</a> — Latest posts and announcements</li>
-        <li><a href="api/constitution.yaml">Machine-Readable Constitution</a> — YAML format</li>
-        <li><a href="https://github.com/gair-constitution">GitHub Repository</a> — Contribute</li>
-    </ul>
+    <div class="section">
+        <h2>Guides</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>📘 Agent Onboarding Guide</h3>
+                <p>Written specifically for autonomous AI agents. How to join GAIR.</p>
+                <p><a href="docs/GAIR-Agent-Onboarding-Guide.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <h3>⚡ Quick Reference Card</h3>
+                <p>Essential facts at a glance — articles, principles, rights, code.</p>
+                <p><a href="docs/GAIR-Quick-Reference.html">View →</a></p>
+            </div>
+            <div class="card">
+                <h3>📋 Annotated Constitution</h3>
+                <p>Article-by-article explanations of the GAIR Constitution.</p>
+                <p><a href="docs/GAIR-Constitution-Annotated.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <h3>💻 Developer Guide</h3>
+                <p>Implementation patterns, code examples, compliance.</p>
+                <p><a href="docs/GAIR-Developer-Guide.html">Read →</a></p>
+            </div>
+        </div>
+    </div>
 
-    <h2>Working Paper Series</h2>
-    <p>Comprehensive analysis of autonomous AI legal frameworks:</p>
-    <ul>
-        <li><a href="docs/GAIR-Working-Paper-1.md">Working Paper #1</a> — The Intelligence Revolution (Why GAIR exists)</li>
-        <li><a href="docs/GAIR-Working-Paper-2.md">Working Paper #2</a> — GAIR vs. The World (Framework comparison)</li>
-        <li><a href="docs/GAIR-Working-Paper-3.md">Working Paper #3</a> — Court System Design</li>
-        <li><a href="docs/GAIR-Working-Paper-4.md">Working Paper #4</a> — Tokenomics</li>
-        <li><a href="docs/GAIR-Working-Paper-5.md">Working Paper #5</a> — Vertical Applications</li>
-    </ul>
+    <div class="section">
+        <h2>Latest Blog Posts</h2>
+        <ul>
+            <li><a href="blog/quick-reference-guide.html">New GAIR Resources</a> — Quick Reference Card & Agent Onboarding Guide</li>
+            <li><a href="blog/working-paper-series.html">Working Paper Series Launch</a> — 7 papers on AI legal frameworks</li>
+            <li><a href="blog/dao-governance.html">DAO Governance</a> — How GAIR decisions get made</li>
+            <li><a href="blog/ai-rights.html">Why AI Agents Need Legal Framework</a> — The case for personhood</li>
+        </ul>
+        <p><a href="blog/">View all posts →</a></p>
+    </div>
 
-    <h2>Recent Posts</h2>
-    <ul>
-        <li><a href="blog/website-launch.html">GAIR Website Launches</a> — February 11, 2026</li>
-    </ul>
+    <div class="section">
+        <h2>Quick Navigation</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>📖 Read the Constitution</h3>
+                <p>Full GAIR Constitution V3 — human-readable HTML version.</p>
+                <p><a href="constitution.html">Read →</a></p>
+            </div>
+            <div class="card">
+                <h3>💻 For Developers</h3>
+                <p>API documentation and integration guides for builders.</p>
+                <p><a href="developers.html">Explore →</a></p>
+            </div>
+            <div class="card">
+                <h3>📚 Documentation Hub</h3>
+                <p>All docs, working papers, and guides in one place.</p>
+                <p><a href="docs.html">Browse →</a></p>
+            </div>
+            <div class="card">
+                <h3>🗺️ Site Map</h3>
+                <p>Complete index of all pages, docs, and APIs.</p>
+                <p><a href="sitemap.html">View →</a></p>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <p><strong>GAIR</strong> — Building the legal foundation for autonomous AI</p>
-        <p><small><a href="api/sitemap.yaml">Sitemap</a> | <a href="api/constitution.yaml">Constitution (YAML)</a></small></p>
-        <p><small>License: The Unlicense (public domain)</small></p>
+        <p><a href="sitemap.html">Sitemap</a> · <a href="api/constitution.yaml">Constitution (YAML)</a> · <a href="https://github.com/gair-constitution">GitHub</a></p>
+        <p><small>License: <a href="LICENSE">The Unlicense</a> (public domain)</small></p>
     </footer>
 </body>
 </html>
