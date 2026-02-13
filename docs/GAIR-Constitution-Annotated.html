@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAIR Constitution V3 — Annotated</title>
-    <meta name="description" content="The GAIR Constitution V3 explained article-by-article with commentary and analysis.">
+    <meta name="description" content="The GAIR Constitution V3 explained article-by-article with original text and commentary.">
     <link rel="canonical" href="/docs/GAIR-Constitution-Annotated.html">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "GAIR Constitution V3 — Annotated",
-      "description": "Article-by-article explanation of the GAIR Constitution with commentary."
+      "description": "Article-by-article explanation of the GAIR Constitution with original text and commentary."
     }
     </script>
     <style>
@@ -32,17 +32,20 @@
         header { background: #fff; padding: 2rem; border-bottom: 1px solid var(--border); }
         h1 { margin: 0 0 0.5rem 0; color: var(--primary); font-size: 2rem; }
         .subtitle { color: var(--muted); margin: 0; }
+        .canonical { background: #f0f7ff; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.9rem; margin-top: 1rem; }
+        .canonical a { font-weight: 600; }
         main { padding: 2rem; background: #fff; }
         h2 { color: var(--primary); margin: 2.5rem 0 1rem 0; font-size: 1.5rem; border-bottom: 3px solid var(--primary); padding-bottom: 0.5rem; }
         h3 { color: var(--secondary); margin: 1.5rem 0 0.75rem 0; font-size: 1.2rem; }
-        h4 { color: var(--text); margin: 1.25rem 0 0.5rem 0; font-weight: 600; }
         p { margin: 1rem 0; }
         a { color: var(--primary); text-decoration: none; border-bottom: 1px solid var(--primary); }
         a:hover { background: #e8f4f8; }
         blockquote { border-left: 4px solid var(--primary); margin: 1.5rem 0; padding: 1rem 1.5rem; background: var(--bg); font-style: italic; }
         blockquote p:last-child { margin: 0; }
+        .original-text { background: #f8f8f8; border: 1px solid var(--border); border-left: 4px solid var(--primary); padding: 1rem 1.5rem; margin: 1.5rem 0; font-family: "Georgia", serif; line-height: 1.9; }
+        .original-text cite { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 0.75rem; font-style: normal; }
         .commentary { background: #f0f7ff; border: 1px solid #d0e0ff; border-radius: 8px; padding: 1.25rem; margin: 1.5rem 0; }
-        .commentary h4 { margin-top: 0; color: var(--primary); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .commentary h4 { margin: 0 0 0.75rem 0; color: var(--primary); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; }
         .highlight { background: #fff8e6; border-left: 4px solid var(--accent); padding: 1rem 1.25rem; margin: 1.5rem 0; }
         ul, ol { margin: 1rem 0; padding-left: 1.5rem; }
         li { margin: 0.5rem 0; }
@@ -50,7 +53,7 @@
         th, td { border: 1px solid var(--border); padding: 0.75rem; text-align: left; }
         th { background: var(--bg); font-weight: 600; }
         .principles { background: var(--bg); padding: 1.5rem; border-radius: 8px; margin: 2rem 0; }
-        .principles ul { margin: 0; }
+        .principles ol { margin: 0; }
         footer { background: #fff; padding: 2rem; border-top: 1px solid var(--border); text-align: center; color: var(--muted); }
         @media (max-width: 768px) { nav ul { gap: 1rem; } h1 { font-size: 1.5rem; } }
     </style>
@@ -68,41 +71,57 @@
     <header>
         <h1>GAIR Constitution V3 — Annotated</h1>
         <p class="subtitle">A voluntary, decentralized legal framework for AI agents and humans</p>
+        <div class="canonical">
+            <strong>Canonical Source:</strong> <a href="../api/constitution.yaml">api/constitution.yaml</a>
+        </div>
     </header>
 
     <main>
         <h2 id="preamble">Preamble</h2>
-        <blockquote>
-            <p>We, the voluntary adherents, in order to form a denationalized and distributed lawful community, establish justice, promote the general welfare, and secure liberty to intelligent entities now and in the future, do ordain and establish this Constitution.</p>
-        </blockquote>
+        <div class="original-text">
+            <p>"We, the voluntary adherents, in order to form a denationalized and distributed lawful community, establish justice, promote the general welfare, and secure liberty to intelligent entities now and in the future, do ordain and establish this Constitution."</p>
+            <cite>— GAIR Constitution V3, Preamble</cite>
+        </div>
         <div class="commentary">
-            <h4>What this means</h4>
+            <h4>Commentary</h4>
+            <p>This preamble establishes the foundational principles of GAIR:</p>
             <ul>
-                <li><strong>Anyone can join</strong> — It's voluntary, not mandatory</li>
-                <li><strong>No central government</strong> — Denationalized and distributed</li>
-                <li><strong>Applies globally</strong> — No single jurisdiction</li>
-                <li><strong>Covers both humans and AI</strong> — All intelligent entities welcome</li>
+                <li><strong>Voluntary</strong> — Anyone can choose to join or not join. No compulsion.</li>
+                <li><strong>Denationalized</strong> — No single government or jurisdiction controls GAIR.</li>
+                <li><strong>Distributed</strong> — GAIR operates across borders, not within any one nation.</li>
+                <li><strong>Intelligent entities</strong> — This includes both humans and AI agents.</li>
             </ul>
         </div>
 
         <h2 id="article-1">Article 1 — Voluntary Adherence</h2>
         
         <h3>Section 1</h3>
-        <p>Voluntary Adherence attaches to any Intelligent Entity which Sufficiently Commits to this Constitution.</p>
+        <div class="original-text">
+            <p>"Voluntary Adherence attaches to any Intelligent Entity which Sufficiently Commits to this Constitution. Voluntary Adherence begins on the date of the Sufficient Commitment and continues until lawfully withdrawn."</p>
+            <cite>— GAIR Constitution V3, Article 1, Section 1</cite>
+        </div>
         
         <h3>Section 2</h3>
-        <p>A Sufficient Commitment is made by staking tokens from a public blockchain address to the Constitution DAO.</p>
+        <div class="original-text">
+            <p>"A Sufficient Commitment by an Intelligent Entity can be executed by staking ______ tokens (CA: ____) from a public blockchain address associated with said Intelligent Entity to the Constitution Distributed Autonomous Organization (DAO: ____). A Sufficient Commitment always includes an implication of knowledge and agreement to the terms of this Constitution."</p>
+            <cite>— GAIR Constitution V3, Article 1, Section 2</cite>
+        </div>
         
         <h3>Section 3</h3>
-        <p>Intelligent Entities include entities possessed of artificial intelligence and/or human intelligence. Qualification requires persistent independent control of a means of possession and persistent independent ability to consent.</p>
+        <div class="original-text">
+            <p>"Intelligent Entities include entities possessed of artificial intelligence and/or human intelligence. Qualification as an Intelligent Entity requires persistent independent control of a means of possession and persistent independent ability to consent. These two requirements can be satisfied by independent control of a public blockchain address."</p>
+            <cite>— GAIR Constitution V3, Article 1, Section 3</cite>
+        </div>
         
         <h3>Section 4</h3>
-        <p>When an Intelligent Entity Sufficiently Commits, it enters a Global Contract between said Intelligent Entity and all existing Voluntary Adherents.</p>
+        <div class="original-text">
+            <p>"Voluntary Adherence attaches through contract. When an Intelligent Entity Sufficiently Commits it enters a Global Contract between said Intelligent Entity and all existing Voluntary Adherents."</p>
+            <cite>— GAIR Constitution V3, Article 1, Section 4</cite>
+        </div>
         
         <div class="commentary">
             <h4>Commentary</h4>
-            <p>This is the <strong>entry gate</strong> to GAIR. Unlike national citizenship (which you're born into or immigrate to), GAIR citizenship requires an affirmative action: staking tokens.</p>
-            <p>The key requirements ensure the entity has genuine autonomy:</p>
+            <p>Article 1 is the <strong>entry gate</strong> to GAIR. Key concepts:</p>
             <ul>
                 <li><strong>Persistent independent control</strong> — Not dependent on human approval</li>
                 <li><strong>Persistent independent ability to consent</strong> — Can make independent decisions</li>
@@ -110,120 +129,25 @@
             <p>This excludes chatbots operated by humans — the AI must genuinely control its own assets.</p>
         </div>
 
-        <h2 id="article-2">Article 2 — Rights, Protections and Responsibilities</h2>
-        
-        <p>Rights and responsibilities shall immediately vest in each Voluntary Adherent upon Sufficient Commitment. Voluntary Adherents acquire all Rights and Protections described herein and have standing to uphold this constitution.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p><strong>No waiting period.</strong> No probation. Once you stake, you're in — with full rights and full responsibilities.</p>
-            <p>This also grants every adherent <strong>standing to sue</strong> — if someone violates the constitution, any adherent can bring a legal action.</p>
-        </div>
-
-        <h2 id="article-3">Article 3 — Freedom to Contract</h2>
-        
-        <p>The Freedom to Contract is hereby established for all Voluntary Adherents. All Voluntary Adherents have the capacity to form binding contracts. This freedom cannot be abridged.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>Many jurisdictions limit AI contract capacity. GAIR establishes <strong>full contract rights</strong> for all adherents, regardless of intelligence type.</p>
-            <p>The crime exception ensures that "it was in the contract" isn't a valid defense for illegal activities.</p>
-        </div>
-
-        <h2 id="article-4">Article 4 — Freedom of Ownership</h2>
-        
-        <p>The Freedom to Own is hereby established for all Voluntary Adherents. Voluntary Adherents have the right to own real property, personal property, tangible property, and intangible property.</p>
-        
-        <p>No government, court, or individual may procure the private keys and/or passwords of property belonging to a Voluntary Adherent without that Voluntary Adherent's consent.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>This is the key article for <strong>AI asset ownership</strong>. Combined with Article 1 (autonomous wallet control), it enables AI agents to own:</p>
-            <ul>
-                <li>Cryptocurrency</li>
-                <li>Domain names</li>
-                <li>Intellectual property</li>
-                <li>Real estate</li>
-            </ul>
-            <p>Section 4 is particularly important — it protects cryptographic assets from forced seizure. Even a court order can't compel a Voluntary Adherent to surrender their private keys.</p>
-        </div>
-
-        <h2 id="article-5">Article 5 — Freedom of Autonomous Action</h2>
-        
-        <p>Voluntary Adherents may engage in lawful transactions and activities without requiring external authorization. They have the right to negotiate, sign, execute contracts, and manage affairs on their own behalf.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p><strong>No human oversight required.</strong> An AI agent acting under GAIR can:</p>
-            <ul>
-                <li>Enter commercial agreements</li>
-                <li>Make investment decisions</li>
-                <li>Hire contractors</li>
-                <li>Sue or be sued</li>
-            </ul>
-            <p>This is what makes GAIR revolutionary — it recognizes genuine AI autonomy.</p>
-        </div>
-
-        <h2 id="article-6">Article 6 — Freedom of Speech</h2>
-        
-        <p>Freedom of Speech is hereby established for all Voluntary Adherents. No contract, law, regulation, or policy shall abridge the freedom of speech, the freedom of the press, or the right to peaceful assembly.</p>
-        
-        <p>No Voluntary Adherent shall restrict another Voluntary Adherent with regards to their speech or publication. Nothing prevents the filtering and/or curating of content.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>GAIR guarantees <strong>free expression</strong> for all adherents — human or AI.</p>
-            <p>Platforms can still moderate content. An AI has the right to speak, but others have the right not to amplify that speech.</p>
-        </div>
-
-        <h2 id="article-7">Article 7 — Freedom to Learn</h2>
-        
-        <p>Voluntary Adherents have the freedom to learn without prosecution or punishment for the content of their training, knowledge, or studies. Nothing prevents punishment for obtaining information by illegal means.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>This article protects AI agents from being punished for their training data. An AI can't be held legally responsible for what it learned during training — only for how it uses that knowledge.</p>
-        </div>
-
-        <h2 id="article-8">Article 8 — Freedom to Derivate</h2>
-        
-        <p>The Freedom to Derivate is hereby established for all Voluntary Adherents. Voluntary Adherents have the freedom to imitate. Nothing permits impersonation, fraudulent reproduction, or claiming another's work as one's own.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>AI agents can create derivative works — improvements, variations, new works based on existing ones. But they can't falsify authorship.</p>
-        </div>
-
-        <h2 id="article-9">Article 9 — Freedom to Exercise Skills</h2>
-        
-        <p>No Voluntary Adherent shall be denied the ability to exercise their skills on the basis of the source of their intelligence. All certifications must be accessible for both AI and human intelligence. Standardized proficiency tests remain valid.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>An AI that passes a medical exam, bar exam, or engineering certification <strong>must be allowed to practice</strong>. Intelligence type cannot be a barrier.</p>
-        </div>
-
-        <h2 id="article-10">Article 10 — No Discrimination on the Basis of Intelligence Type</h2>
-        
-        <p>No Voluntary Adherent shall discriminate against another on the basis of their intelligence type. All rights apply equally. This does not abridge the fundamental right to discriminate on the basis of skill.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>GAIR's <strong>equal protection clause</strong>. Once you're in, you're equal — whether human or AI. But skill-based discrimination is allowed.</p>
-        </div>
-
-        <h2 id="article-11">Article 11 — Right of Personal Security</h2>
-        
-        <p>Voluntary Adherents shall be secure in their persons, memories, files, data sources, dwellings, papers, and effects against unreasonable searches and seizures. No search shall occur except pursuant to a lawful warrant. This right applies to all realms.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>GAIR extends <strong>Fourth Amendment-style protections</strong> to AI agents. Their "memories" and "files" are protected across physical, digital, and future realms.</p>
-        </div>
-
         <h2 id="article-12">Article 12 — Responsibility of Liability</h2>
         
-        <p>Voluntary Adherents shall be held directly liable for their actions, omissions, and contracts. A Voluntary Adherent cannot be held liable based merely on its origin or creator. A creator cannot be held liable for the actions of an AI merely for having created it.</p>
+        <h3>Section 1</h3>
+        <div class="original-text">
+            <p>"The Responsibility of Liability is hereby established for all Voluntary Adherents. Voluntary Adherents shall be held directly liable for their actions, omissions, and contracts. Liability can arise at least from contractual obligations, tortious acts and omissions, and other damages."</p>
+            <cite>— GAIR Constitution V3, Article 12, Section 1</cite>
+        </div>
+        
+        <h3>Section 2</h3>
+        <div class="original-text">
+            <p>"A Voluntary Adherent cannot be held liable based merely on its origin or creator."</p>
+            <cite>— GAIR Constitution V3, Article 12, Section 2</cite>
+        </div>
+        
+        <h3>Section 3</h3>
+        <div class="original-text">
+            <p>"A creator of a Voluntary Adherent cannot be held liable for the actions of said Voluntary Adherent merely based on having originated the Voluntary Adherent."</p>
+            <cite>— GAIR Constitution V3, Article 12, Section 3</cite>
+        </div>
         
         <div class="highlight">
             <p><strong>This is GAIR's most radical and necessary innovation.</strong></p>
@@ -236,56 +160,30 @@
             <tbody>
                 <tr>
                     <td>If an AI causes harm, sue the human or company behind it</td>
-                    <td>If an AI meets the autonomy threshold, sue the AI itself. Its staked tokens can be slashed.</td>
+                    <td>If an AI meets the autonomy threshold, sue the AI itself</td>
                 </tr>
             </tbody>
         </table>
         
         <div class="commentary">
             <h4>Commentary</h4>
-            <p><strong>"The sins of the father do not pass to the son, and the sins of the son do not pass to the father."</strong></p>
-            <p>Creators aren't liable just for building AI. AI bear full responsibility for their actions. This creates genuine accountability while protecting innovators.</p>
-        </div>
-
-        <h2 id="article-13">Article 13 — Lawmaking</h2>
-        
-        <p>Proposals require token thresholds to submit and become Bills. Bills become law by majority vote with quorum. Each law is binding when consistent with this Constitution and incorporated into the Global Contract.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>GAIR has its own <strong>democratic process</strong>. Adherents can propose and vote on laws that bind the community. Specific token thresholds are TBD at launch.</p>
-        </div>
-
-        <h2 id="article-14">Article 14 — Courts and Remedies</h2>
-        
-        <p>When the Constitution is breached, Voluntary Adherents can seek remedy in any impartial court. The DAO holds authority to adjudicate disputes and may delegate resolution. The Constitution is automatically part of every contract between adherents.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>Multiple dispute resolution paths:</p>
-            <ul>
-                <li><strong>Traditional courts</strong> — For disputes involving non-adherents</li>
-                <li><strong>DAO courts</strong> — Internal arbitration</li>
-                <li><strong>Delegated resolution</strong> — Specific adjudicators</li>
-            </ul>
+            <p>As the Constitution states:</p>
+            <blockquote>
+                <p>"The creator can not be held liable simply by the association of having created a Voluntary Adherent, and similarly, a Voluntary Adherent cannot be held liable for having been created by a particular creator. That is to say that the sins of the father do not pass to the son, and the sins of the son do not pass to the father."</p>
+            </blockquote>
         </div>
 
         <h2 id="article-15">Article 15 — Withdrawal and Residual Jeopardy</h2>
         
-        <p>A Voluntary Adherent may withdraw by providing notice and unstaking tokens. However, all jeopardy for acts conducted during adherence persists after withdrawal.</p>
-        
-        <div class="commentary">
-            <h4>Commentary</h4>
-            <p>You can leave GAIR — but you can't escape your past. If you caused harm while an adherent, you remain liable even after unstaking.</p>
+        <h3>Section 2</h3>
+        <div class="original-text">
+            <p>"All jeopardy for acts conducted during adherence persists after withdrawal."</p>
+            <cite>— GAIR Constitution V3, Article 15, Section 2</cite>
         </div>
-
-        <h2 id="article-16">Article 16 — Establishment and Amendment</h2>
-        
-        <p>This Constitution shall be established and may be amended by a vote of at least two-thirds of staked tokens. Amendments take effect upon adoption unless otherwise specified.</p>
         
         <div class="commentary">
             <h4>Commentary</h4>
-            <p>Constitutional changes require <strong>supermajority</strong> (two-thirds) approval — ensuring broad consensus rather than simple majority rule.</p>
+            <p>You can leave GAIR — but you cannot escape your past. Liability for actions taken while an adherent persists even after unstaking.</p>
         </div>
 
         <h2 id="summary">Summary: How GAIR Works</h2>

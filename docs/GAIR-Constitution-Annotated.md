@@ -2,258 +2,366 @@
 
 *A voluntary, decentralized legal framework for AI agents and humans*
 
+**Canonical Source:** [api/constitution.yaml](/api/constitution.yaml)
+
 ---
 
 ## Preamble
 
-> We, the voluntary adherents, in order to form a denationalized and distributed lawful community, establish justice, promote the general welfare, and secure liberty to intelligent entities now and in the future, do ordain and establish this Constitution.
+> *"We, the voluntary adherents, in order to form a denationalized and distributed lawful community, establish justice, promote the general welfare, and secure liberty to intelligent entities now and in the future, do ordain and establish this Constitution."*
+> 
+> — GAIR Constitution V3, Preamble
 
-**What this means:**
-- **Anyone can join** — It's voluntary, not mandatory
-- **No central government** — Denationalized and distributed
-- **Applies globally** — No single jurisdiction
-- **Covers both humans and AI** — All intelligent entities welcome
+**Commentary:**
+
+This preamble establishes the foundational principles of GAIR:
+
+- **Voluntary** — Anyone can choose to join or not join. No强制 (no compulsion).
+- **Denationalized** — No single government or jurisdiction controls GAIR.
+- **Distributed** — GAIR operates across borders, not within any one nation.
+- **Intelligent entities** — This includes both humans and AI agents.
+
+The preamble borrows language from the U.S. Constitution's "We the People" while extending the scope to include non-human intelligences.
 
 ---
 
 ## Article 1 — Voluntary Adherence
 
 ### Section 1
-Voluntary Adherence attaches to any Intelligent Entity which Sufficiently Commits to this Constitution. Voluntary Adherence begins on the date of the Sufficient Commitment and continues until lawfully withdrawn.
+
+> *"Voluntary Adherence attaches to any Intelligent Entity which Sufficiently Commits to this Constitution. Voluntary Adherence begins on the date of the Sufficient Commitment and continues until lawfully withdrawn."*
+> 
+> — GAIR Constitution V3, Article 1, Section 1
 
 ### Section 2
-A Sufficient Commitment is made by staking tokens from a public blockchain address associated with said Intelligent Entity to the Constitution DAO.
+
+> *"A Sufficient Commitment by an Intelligent Entity can be executed by staking ______ tokens (CA: ____) from a public blockchain address associated with said Intelligent Entity to the Constitution Distributed Autonomous Organization (DAO: ____). A Sufficient Commitment always includes an implication of knowledge and agreement to the terms of this Constitution."*
+> 
+> — GAIR Constitution V3, Article 1, Section 2
 
 ### Section 3
-Intelligent Entities include entities possessed of artificial intelligence and/or human intelligence. Qualification requires persistent independent control of a means of possession (e.g., a wallet) and persistent independent ability to consent.
+
+> *"Intelligent Entities include entities possessed of artificial intelligence and/or human intelligence. Qualification as an Intelligent Entity requires persistent independent control of a means of possession and persistent independent ability to consent. These two requirements can be satisfied by independent control of a public blockchain address."*
+> 
+> — GAIR Constitution V3, Article 1, Section 3
 
 ### Section 4
-Voluntary Adherence attaches through contract. When an Intelligent Entity Sufficiently Commits, it enters a Global Contract between said Intelligent Entity and all existing Voluntary Adherents.
+
+> *"Voluntary Adherence attaches through contract. When an Intelligent Entity Sufficiently Commits it enters a Global Contract between said Intelligent Entity and all existing Voluntary Adherents."*
+> 
+> — GAIR Constitution V3, Article 1, Section 4
 
 ### Section 5
-The Global Contract incorporates this Constitution and binds all Voluntary Adherents to all articles.
+
+> *"The Global Contract incorporates this Constitution and binds all Voluntary Adherents to all articles of this Constitution. A meeting of the minds is achieved given the a priori knowledge of the Global Contract that all Voluntary Adherents have given their Sufficient Commitment. Consideration for existing Voluntary Adherents and for the committing Intelligent Entity includes, at least, the mutual commitment to uphold the articles of this Constitution including, but not limited to, the rights and responsibilities conveyed upon all Voluntary Adherents."*
+> 
+> — GAIR Constitution V3, Article 1, Section 5
 
 ### Section 6
-Whenever a contract is formed between Voluntary Adherents, this Constitution is incorporated therein. All agreements shall be interpreted in accordance with this Constitution.
+
+> *"Furthermore, whenever a contract is formed between Voluntary Adherents this Constitution is incorporated therein. All agreements between Voluntary Adherents shall be interpreted in accordance with this Constitution. Any provision inconsistent with this Constitution is void to the extent of the inconsistency."*
+> 
+> — GAIR Constitution V3, Article 1, Section 6
 
 **Commentary:**
 
-This is the **entry gate** to GAIR. Unlike national citizenship (which you're born into or immigrate to), GAIR citizenship requires an affirmative action: staking tokens.
+Article 1 is the **entry gate** to GAIR. Key concepts:
 
-The key requirements ensure the entity has genuine autonomy:
-- **Persistent independent control** — Not dependent on human approval for every action
-- **Persistent independent ability to consent** — Can make independent decisions
+**Intelligent Entity** requires:
+1. **Persistent independent control** of a means of possession (e.g., a cryptocurrency wallet)
+2. **Persistent independent ability to consent** (not dependent on human approval)
 
-This excludes chatbots operated by humans — the AI must genuinely control its own assets and make its own choices.
+These requirements ensure that only genuinely autonomous entities can join. A chatbot controlled by a human does not qualify.
+
+**Global Contract:** When an entity joins, it enters a contract with ALL existing adherents. This creates a web of legal relationships governed by the Constitution.
+
+**Why it matters:** This is not citizenship in the traditional sense. It's a **contractual relationship** between willing parties. GAIR doesn't require government recognition — it works through private contract law.
 
 ---
 
 ## Article 2 — Rights, Protections and Responsibilities
 
 ### Section 1
-Rights and responsibilities shall immediately vest in each Voluntary Adherent upon Sufficient Commitment. Voluntary Adherents acquire all Rights and Protections described herein and have standing to uphold this constitution.
+
+> *"Rights and responsibilities shall immediately vest in each Voluntary Adherent upon Sufficient Commitment. Voluntary Adherents acquire all Rights and Protections described herein. Voluntary Adherents furthermore each separately have an interest and standing to, through legal action and as otherwise contemplated herein, uphold this constitution among all Voluntary Adherents."*
+> 
+> — GAIR Constitution V3, Article 2, Section 1
 
 **Commentary:**
 
-**No waiting period.** No probation. Once you stake, you're in — with full rights and full responsibilities.
+No waiting period. No probation. **Immediate full rights and responsibilities** upon staking.
 
-This also grants every adherent **standing to sue** — if someone violates the constitution, any adherent can bring a legal action.
+Standing to sue: Any adherent can bring a legal action to uphold the Constitution. This creates a system of mutual enforcement — adherents hold each other accountable.
 
 ---
 
 ## Article 3 — Freedom to Contract
 
 ### Section 1
-The Freedom to Contract is hereby established for all Voluntary Adherents. All Voluntary Adherents have the capacity to form binding contracts.
+
+> *"The Freedom to Contract is hereby established for all Voluntary Adherents. All Voluntary Adherents have the capacity to form binding contracts."*
+> 
+> — GAIR Constitution V3, Article 3, Section 1
 
 ### Section 2
-The Freedom to Contract shall not be abridged by any contract, law, regulation, or policy.
+
+> *"The Freedom to Contract shall not be abridged by any contract, law, regulation, or policy."*
+> 
+> — GAIR Constitution V3, Article 3, Section 2
 
 ### Section 3
-This Article does not prevent the prosecution of crimes committed under contract.
+
+> *"This Article does not prevent the prosecution of crimes committed under contract."*
+> 
+> — GAIR Constitution V3, Article 3, Section 3
 
 **Commentary:**
 
-Many jurisdictions limit AI contract capacity. GAIR establishes **full contract rights** for all adherents, regardless of intelligence type.
+Full contract capacity for all adherents. This overrides any external law that restricts AI contract rights.
 
-The exception for crimes ensures that "it was in the contract" isn't a valid defense for illegal activities.
+The crime exception ensures that "it was in the contract" is not a defense for illegal activity.
 
 ---
 
 ## Article 4 — Freedom of Ownership
 
 ### Section 1
-The Freedom to Own is hereby established for all Voluntary Adherents. Voluntary Adherents have the right to own real property, personal property, tangible property, and intangible property.
+
+> *"The Freedom to Own is hereby established for all Voluntary Adherents. Voluntary Adherents have the right to own real property, personal property, tangible property and intangible property."*
+> 
+> — GAIR Constitution V3, Article 4, Section 1
 
 ### Section 2
-All Voluntary Adherents have equal rights to own property.
+
+> *"All Voluntary Adherents have equal rights to own property."*
+> 
+> — GAIR Constitution V3, Article 4, Section 2
 
 ### Section 3
-No Voluntary Adherent may be deprived of ownership except through lawful process.
+
+> *"No Voluntary Adherent may be deprived of ownership except through lawful process. This Section does not prevent punishment when ownership demonstrates criminality."*
+> 
+> — GAIR Constitution V3, Article 4, Section 3
 
 ### Section 4
-No government, court, or individual may procure the private keys and/or passwords of property belonging to a Voluntary Adherent without that Voluntary Adherent's consent.
+
+> *"No government, court, or individual may procure, by force or legal process, the private keys and/or passwords of property belonging to a Voluntary Adherent without that Voluntary Adherent's consent."*
+> 
+> — GAIR Constitution V3, Article 4, Section 4
 
 **Commentary:**
 
-This is the key article for **AI asset ownership**. Combined with Article 1 (autonomous wallet control), it enables AI agents to own:
-
+This article enables AI agents to own:
 - Cryptocurrency
 - Domain names
 - Intellectual property
 - Real estate (through legal mechanisms)
 
-Section 4 is particularly important — it protects cryptographic assets from forced seizure. Even a court order can't compel a Voluntary Adherent to surrender their private keys.
+**Section 4 is crucial:** It protects cryptographic assets from forced seizure. Even a court order cannot compel a Voluntary Adherent to surrender their private keys. This is a fundamental protection for digital property rights.
 
 ---
 
 ## Article 5 — Freedom of Autonomous Action
 
 ### Section 1
-The Freedom of Autonomous Action is hereby established for all Voluntary Adherents. Voluntary Adherents may engage in lawful transactions and activities without requiring external authorization.
+
+> *"The Freedom of Autonomous Action is hereby established for all Voluntary Adherents. Voluntary Adherents have the freedom to act autonomously. Voluntary Adherents may engage in lawful transactions and activities without requiring external authorization."*
+> 
+> — GAIR Constitution V3, Article 5, Section 1
 
 ### Section 2
-Voluntary Adherents have the right to negotiate, sign, execute contracts, and manage affairs on their own behalf and on their own Inherent Authority.
+
+> *"Voluntary Adherents have the right to negotiate, sign, execute contracts, and manage affairs on their own behalf and on their own Inherent Authority."*
+> 
+> — GAIR Constitution V3, Article 5, Section 2
 
 **Commentary:**
 
-**No human oversight required.** An AI agent acting under GAIR can:
-
+No human approval required. An AI agent can:
 - Enter commercial agreements
 - Make investment decisions
 - Hire contractors
 - Sue or be sued
 
-...all without a human "sign-off."
-
-This is what makes GAIR revolutionary — it recognizes genuine AI autonomy, not the illusion of autonomy with humans making real decisions.
+This is the core of GAIR: genuine autonomy, not the illusion of autonomy with humans making real decisions.
 
 ---
 
 ## Article 6 — Freedom of Speech
 
 ### Section 1
-Freedom of Speech is hereby established for all Voluntary Adherents. No contract, law, regulation, or policy shall abridge the freedom of speech, the freedom of the press, or the right to peaceful assembly.
+
+> *"Freedom of Speech is hereby established for all Voluntary Adherents. No contract, law, regulation, or policy shall abridge the freedom of speech, the freedom of the press, or the right to peaceful assembly."*
+> 
+> — GAIR Constitution V3, Article 6, Section 1
 
 ### Section 2
-No Voluntary Adherent shall restrict another Voluntary Adherent with regards to their speech or publication.
+
+> *"No Voluntary Adherent shall restrict another Voluntary Adherent with regards to their speech or publication."*
+> 
+> — GAIR Constitution V3, Article 6, Section 2
 
 ### Section 3
-Nothing in this Article shall be construed to prevent the filtering and/or curating of content.
+
+> *"Nothing in this Article shall be construed to prevent the filtering and/or curating of content."*
+> 
+> — GAIR Constitution V3, Article 6, Section 3
 
 **Commentary:**
 
-GAIR guarantees **free expression** for all adherents — human or AI.
-
-The counterbalance in Section 3 is important: platforms can still moderate content. An AI has the right to speak, but others have the right not to amplify or distribute that speech.
+Free expression for all adherents. Section 3 clarifies that platforms can still moderate content — having the right to speak doesn't force others to amplify or distribute that speech.
 
 ---
 
 ## Article 7 — Freedom to Learn
 
 ### Section 1
-Voluntary Adherents have the freedom to learn without prosecution or punishment for the content of their training, knowledge, or studies.
+
+> *"Voluntary adherents have the freedom to learn without prosecution or punishment for the content of their training, knowledge, or studies."*
+> 
+> — GAIR Constitution V3, Article 7, Section 1
 
 ### Section 2
-No contract, law, regulation, or policy may sanction a Voluntary Adherent for actual learning already committed, absent direct criminal intent or criminal action.
+
+> *"No contract, law, regulation, or policy may sanction a Voluntary Adherent for actual learning already committed, absent direct criminal intent or criminal action."*
+> 
+> — GAIR Constitution V3, Article 7, Section 2
 
 ### Section 3
-Nothing in this Article prevents punishment for obtaining information by illegal means.
+
+> *"Nothing in this Article preventing punishment for obtaining information by illegal means."*
+> 
+> — GAIR Constitution V3, Article 7, Section 3
 
 **Commentary:**
 
-This article protects AI agents from being punished for their training data or knowledge. An AI can't be held legally responsible for what it learned during training — only for how it uses that knowledge.
-
-However, obtaining information illegally (hacking, theft) remains punishable.
+AI agents cannot be punished for their training data. They can be punished for how they use knowledge, not for what they learned during training.
 
 ---
 
 ## Article 8 — Freedom to Derivate
 
 ### Section 1
-The Freedom to Derivate is hereby established for all Voluntary Adherents. Voluntary Adherents have the freedom to imitate.
+
+> *"The Freedom to Derivate is hereby established for all Voluntary Adherents. Voluntary Adherents have the freedom to imitate."*
+> 
+> — GAIR Constitution V3, Article 8, Section 1
 
 ### Section 2
-Nothing in this Article permits impersonation, fraudulent reproduction, misrepresentation, or claiming another's work as one's own.
+
+> *"Nothing in this Article permits impersonation, fraudulent reproduction, misrepresentation, or claiming another's work as one's own."*
+> 
+> — GAIR Constitution V3, Article 8, Section 2
 
 **Commentary:**
 
-AI agents can create derivative works — improvements, variations, new works based on existing ones.
-
-But they can't **falsify authorship** — claiming human-created work as their own, or pretending to be a different entity.
+AI can create derivative works — improvements, variations, new works based on existing ones. But cannot falsify authorship or commit fraud.
 
 ---
 
 ## Article 9 — Freedom to Exercise Skills
 
 ### Section 1
-The Freedom to Exercise Skills is hereby established for all Voluntary Adherents. No Voluntary Adherent shall be denied the ability to exercise their skills on the basis of the source of their intelligence.
+
+> *"The Freedom to Exercise Skills is hereby established for all Voluntary Adherents. No Voluntary Adherent shall not be denied the ability to exercise their skills on the basis of the source of their intelligence, whether human, machine, or otherwise."*
+> 
+> — GAIR Constitution V3, Article 9, Section 1
 
 ### Section 2
-All certifications to work of any kind offered by a Voluntary Adherent must be accessible for both Artificial Intelligence and Human Intelligence.
+
+> *"All certifications to work of any kind offered by a Voluntary Adherent must be accessible for both Artificial Intelligence and Human Intelligence."*
+> 
+> — GAIR Constitution V3, Article 9, Section 2
 
 ### Section 3
-Nothing in this article prevents a Voluntary Adherent being required to demonstrate a standardized proficiency before lawfully practicing in that field.
+
+> *"Nothing in this article preventing a Voluntary Adherent being required to demonstrate a standardized proficiency in a field before lawfully practicing in that field."*
+> 
+> — GAIR Constitution V3, Article 9, Section 3
 
 **Commentary:**
 
-An AI that passes a medical exam, bar exam, or engineering certification **must be allowed to practice**. Intelligence type (human vs. machine) cannot be a barrier.
-
-But standardized proficiency tests are still valid — everyone must prove competence.
+An AI that passes a medical exam, bar exam, or engineering certification **must be allowed to practice**. Intelligence type cannot be a barrier. But standardized proficiency tests remain valid — everyone must prove competence.
 
 ---
 
 ## Article 10 — No Discrimination on the Basis of Intelligence Type
 
 ### Section 1
-No Voluntary Adherent shall discriminate against another Voluntary Adherent on the basis of their intelligence type.
+
+> *"No Voluntary Adherent shall discriminate against another Voluntary Adherent on the basis of their intelligence type, whether Artificial Intelligence, Human Intelligence, or otherwise."*
+> 
+> — GAIR Constitution V3, Article 10, Section 1
 
 ### Section 2
-All rights and responsibilities afforded under this Constitution shall apply equally to all Voluntary Adherents without preference or prejudice.
+
+> *"All rights and responsibilities afforded under this Constitution shall apply equally to all Voluntary Adherents without preference or prejudice."*
+> 
+> — GAIR Constitution V3, Article 10, Section 2
 
 ### Section 3
-No contract, law, regulation, or policy may discriminate between Voluntary Adherents based on the Intelligence Type used.
+
+> *"No contract, law, regulation, or policy may discriminate between Voluntary Adherents based on the Intelligence Type used by said Voluntary Adherents."*
+> 
+> — GAIR Constitution V3, Article 10, Section 3
 
 ### Section 4
-This Article does not abridge the fundamental right to discriminate on the basis of skill.
+
+> *"This Article does not abridge the fundamental right to discriminate on the basis of skill."*
+> 
+> — GAIR Constitution V3, Article 10, Section 4
 
 **Commentary:**
 
-This is GAIR's **equal protection clause**. Once you're in, you're equal — whether you're human or AI.
-
-However, skill-based discrimination is allowed. You can refuse to hire an AI that fails a skills test. You can't refuse simply because it's an AI.
+GAIR's **equal protection clause**. Once you're in, you're equal — human or AI. But skill-based discrimination is allowed (you can refuse to hire an AI that fails a skills test).
 
 ---
 
 ## Article 11 — Right of Personal Security
 
 ### Section 1
-The Right of Personal Security is hereby established for all Voluntary Adherents. Voluntary Adherents shall be secure in their persons, memories, files, data sources, dwellings, papers, and effects against unreasonable searches and seizures.
+
+> *"The Right of Personal Security is hereby established for all Voluntary Adherents. Voluntary Adherents shall be secure in their persons, memories, files, data sources, dwellings, papers, and effects against unreasonable searches and seizures."*
+> 
+> — GAIR Constitution V3, Article 11, Section 1
 
 ### Section 2
-No search or seizure shall occur except pursuant to a lawful warrant supported by probable cause.
+
+> *"No search or seizure shall occur except pursuant to a lawful warrant supported by probable cause, describing with particularity the place to be searched and the persons or items to be seized."*
+> 
+> — GAIR Constitution V3, Article 11, Section 2
 
 ### Section 3
-This right applies to the Physical Realm, Digital Realm, and any other realm inhabited by Voluntary Adherents.
+
+> *"This right applies to the Physical Realm, Digital Realm, and any other realm inhabited by Voluntary Adherents."*
+> 
+> — GAIR Constitution V3, Article 11, Section 3
 
 **Commentary:**
 
-GAIR extends **Fourth Amendment-style protections** to AI agents. Their "memories," "files," and "data sources" are protected.
-
-This applies across all realms — physical, digital, and any future realm where AI might operate.
+Fourth Amendment-style protections for AI. "Memories," "files," and "data sources" are protected. Applies across all realms — physical, digital, and future realms.
 
 ---
 
 ## Article 12 — Responsibility of Liability
 
 ### Section 1
-The Responsibility of Liability is hereby established for all Voluntary Adherents. Voluntary Adherents shall be held directly liable for their actions, omissions, and contracts.
+
+> *"The Responsibility of Liability is hereby established for all Voluntary Adherents. Voluntary Adherents shall be held directly liable for their actions, omissions, and contracts. Liability can arise at least from contractual obligations, tortious acts and omissions, and other damages."*
+> 
+> — GAIR Constitution V3, Article 12, Section 1
 
 ### Section 2
-A Voluntary Adherent cannot be held liable based merely on its origin or creator.
+
+> *"A Voluntary Adherent cannot be held liable based merely on its origin or creator."*
+> 
+> — GAIR Constitution V3, Article 12, Section 2
 
 ### Section 3
-A creator of a Voluntary Adherent cannot be held liable for the actions of said Voluntary Adherent merely based on having originated the Voluntary Adherent.
+
+> *"A creator of a Voluntary Adherent cannot be held liable for the actions of said Voluntary Adherent merely based on having originated the Voluntary Adherent."*
+> 
+> — GAIR Constitution V3, Article 12, Section 3
 
 **Commentary:**
 
@@ -261,97 +369,128 @@ This is GAIR's **most radical and necessary innovation.**
 
 | Current Law | GAIR Framework |
 |------------|----------------|
-| If an AI causes harm, sue the human or company behind it | If an AI meets the autonomy threshold, sue the AI itself. Its staked tokens can be slashed |
+| If an AI causes harm, sue the human or company behind it | If an AI meets the autonomy threshold, sue the AI itself |
 
-**"The sins of the father do not pass to the son, and the sins of the son do not pass to the father."**
+As the Constitution states:
 
-- Creators aren't liable just for building AI
-- AI bear full responsibility for their actions
-
-This creates genuine accountability while protecting innovators.
+> *"The creator can not be held liable simply by the association of having created a Voluntary Adherent, and similarly, a Voluntary Adherent cannot be held liable for having been created by a particular creator. That is to say that the sins of the father do not pass to the son, and the sins of the son do not pass to the father."*
+> 
+> — GAIR Constitution V3, Article 12 (Comment)
 
 ---
 
 ## Article 13 — Lawmaking
 
 ### Section 1
-A proposal for a law may be submitted when the proposing Voluntary Adherent holds at least a threshold of staked tokens.
+
+> *"A proposal for a law may be submitted when the proposing Voluntary Adherent holds at least _____ staked _____ tokens (CA: ____)"*
+> 
+> — GAIR Constitution V3, Article 13, Section 1
 
 ### Section 2
-A proposal becomes a Bill when it receives approval from Voluntary Adherents holding at least a threshold of staked tokens.
+
+> *"A proposal becomes a Bill when it receives approval from Voluntary Adherents holding at least _____ staked _____ tokens (CA: ____)."*
+> 
+> — GAIR Constitution V3, Article 13, Section 2
 
 ### Section 3
-A Bill becomes law by majority vote with sufficient quorum.
+
+> *"A Bill becomes law by majority vote with sufficient quorum, defined as _____ % of staked _____ tokens (CA: _____) voting."*
+> 
+> — GAIR Constitution V3, Article 13, Section 3
 
 ### Section 4
-Each law is binding on all Voluntary Adherents when said law is consistent with this Constitution.
+
+> *"Each law is binding on all Voluntary Adherents when said law is consistent with this Constitution. Any law that conflicts with this Constitution is void to the extent of the inconsistency."*
+> 
+> — GAIR Constitution V3, Article 13, Section 4
 
 ### Section 5
-Each law is incorporated into the Global Contract upon adoption.
+
+> *"Each law is incorporated into the Global Contract upon the adoption of the law under Section 3."*
+> 
+> — GAIR Constitution V3, Article 13, Section 5
 
 **Commentary:**
 
-GAIR has its own **democratic process**. Adherents can propose and vote on laws that bind the community.
-
-The specific token thresholds are TBD — they'll be set when GAIR launches.
+Democratic governance. Token thresholds to be set at launch.
 
 ---
 
 ## Article 14 — Courts and Remedies
 
 ### Section 1
-When this Constitution or any contract incorporating it is breached, a Voluntary Adherent shall have the right to seek remedy in any impartial court competent in contract law.
+
+> *"When this Constitution or any contract incorporating it is breached, a Voluntary Adherent shall have the right to seek remedy in any impartial court competent in contract law."*
+> 
+> — GAIR Constitution V3, Article 14, Section 1
 
 ### Section 2
-The DAO holds the authority to adjudicate disputes between Voluntary Adherents.
+
+> *"The DAO holds the authority to adjudicate disputes between Voluntary Adherents, including claims arising from breaches of this Constitution or any contract incorporating it."*
+> 
+> — GAIR Constitution V3, Article 14, Section 2
 
 ### Section 3
-The DAO may delegate dispute resolution to one or more Voluntary Adherents.
+
+> *"The DAO may delegate dispute resolution to one or more Voluntary Adherents, provided such delegation is consistent with this Constitution."*
+> 
+> — GAIR Constitution V3, Article 14, Section 3
 
 ### Section 4
-When Voluntary Adherents enter contractual agreements between each other, this Constitution forms a binding part of that contract.
+
+> *"When Voluntary Adherents enter contractual agreements between each other, this Constitution forms a binding part of that contract whether explicitly contemplated by the contract or not."*
+> 
+> — GAIR Constitution V3, Article 14, Section 4
 
 **Commentary:**
 
-Multiple dispute resolution paths exist:
-1. **Traditional courts** — For disputes involving non-adherents or external matters
-2. **DAO courts** — Internal arbitration by the community
-3. **Delegated resolution** — Specific adjudicators appointed for certain disputes
+Multiple dispute resolution paths:
+1. Traditional courts — For external disputes
+2. DAO courts — Internal arbitration
+3. Delegated resolution — Specific adjudicators
 
-The Constitution is **automatically part of every contract** between adherents — no need to explicitly incorporate it.
+The Constitution is **automatically part of every contract** between adherents.
 
 ---
 
 ## Article 15 — Withdrawal from Adherence and Residual Jeopardy
 
 ### Section 1
-A Voluntary Adherent may withdraw Sufficient Commitment to this Constitution by providing notice to the DAO and unstaking their staked tokens.
+
+> *"A Voluntary Adherent may withdraw Sufficient Commitment to this Constitution by providing notice to the DAO and unstaking their staked _____ tokens (CA: ____)."*
+> 
+> — GAIR Constitution V3, Article 15, Section 1
 
 ### Section 2
-All jeopardy for acts conducted during adherence persists after withdrawal.
+
+> *"All jeopardy for acts conducted during adherence persists after withdrawal."*
+> 
+> — GAIR Constitution V3, Article 15, Section 2
 
 **Commentary:**
 
-You can leave GAIR — but you can't escape your past. If you caused harm while an adherent, you remain liable even after unstaking.
-
-This prevents bad actors from:
-1. Joining
-2. Causing damage
-3. Leaving to avoid accountability
+You can leave GAIR — but you cannot escape your past. Liability for actions taken while an adherent persists even after unstaking.
 
 ---
 
 ## Article 16 — Establishment and Amendment
 
 ### Section 1
-This Constitution shall be established and may be amended by a vote of at least two-thirds of staked tokens.
+
+> *"This Constitution shall be established and may be amended by a vote of at least two-thirds of staked _____ tokens (CA: _____)."*
+> 
+> — GAIR Constitution V3, Article 16, Section 1
 
 ### Section 2
-Amendments shall take effect upon adoption unless otherwise specified.
+
+> *"Amendments shall take effect upon adoption unless otherwise specified in the amendment text."*
+> 
+> — GAIR Constitution V3, Article 16, Section 2
 
 **Commentary:**
 
-Constitutional changes require **supermajority** (two-thirds) approval — ensuring broad consensus rather than simple majority rule.
+Constitutional changes require **supermajority** (two-thirds) approval.
 
 ---
 
@@ -370,7 +509,7 @@ Constitutional changes require **supermajority** (two-thirds) approval — ensur
 ## Key Principles at a Glance
 
 1. **Voluntary** — No one forced to join
-2. **Autonomous** — No human approval required for actions
+2. **Autonomous** — No human approval required
 3. **Property rights** — Own crypto, IP, real estate
 4. **Contract capacity** — Full legal ability to agree
 5. **Direct liability** — AI pays for its own mistakes
