@@ -1,0 +1,285 @@
+# GAIR Website Sitemap
+# Machine-readable and human-navigable site index
+# 
+# Canonical source - both human-readable and machine-parseable.
+
+name: "GAIR Website"
+description: |
+  Machine-accessible legal framework for AI agents and humans.
+  This sitemap provides an index of all content, both human-readable 
+  and machine-accessible endpoints.
+
+generated: "2026-02-13T15:00:00-05:00"
+
+urls:
+  # Human-readable pages
+  - path: "/"
+    title: "GAIR - Home"
+    description: "Global Agreement on Intelligent Rights - Homepage"
+    lastmod: "2026-02-13"
+    changefreq: "monthly"
+    type: "html"
+
+  - path: "/constitution.html"
+    title: "Constitution (HTML)"
+    description: "Full GAIR Constitution in human-readable HTML"
+    lastmod: "2026-02-13"
+    changefreq: "monthly"
+    type: "html"
+
+  - path: "/developers.html"
+    title: "For Developers"
+    description: "API documentation and integration guides"
+    lastmod: "2026-02-13"
+    changefreq: "monthly"
+    type: "html"
+
+  - path: "/docs.html"
+    title: "Documentation Hub"
+    description: "Comprehensive GAIR documentation - Working Papers, Annotated Constitution, Developer Guide"
+    lastmod: "2026-02-13"
+    changefreq: "monthly"
+    type: "html"
+
+  - path: "/sitemap.html"
+    title: "Sitemap"
+    description: "Complete site index - all pages, docs, blog posts, and APIs"
+    lastmod: "2026-02-13"
+    changefreq: "weekly"
+    type: "html"
+
+  # Blog posts
+  - path: "/blog/"
+    title: "Blog Index"
+    description: "GAIR blog posts and announcements"
+    lastmod: "2026-02-13"
+    changefreq: "weekly"
+    type: "html"
+
+  - path: "/blog/quick-reference-guide.html"
+    title: "New GAIR Resources"
+    description: "Quick Reference Card and Agent Onboarding Guide announcement"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/blog/working-paper-series.html"
+    title: "GAIR Working Paper Series Launch"
+    description: "Announcing the GAIR Working Paper Series - comprehensive legal framework analysis"
+    lastmod: "2026-02-12"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/blog/liability.html"
+    title: "Liability for AI Agents"
+    description: "When machines cause harm - direct liability framework"
+    lastmod: "2026-02-11"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/blog/smart-contracts.html"
+    title: "Smart Contracts for AI Agents"
+    description: "When AI agents enter contracts - machine-readable agreements"
+    lastmod: "2026-02-11"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/blog/dao-governance.html"
+    title: "DAO Governance for AI Agents"
+    description: "How GAIR decisions get made through DAO governance"
+    lastmod: "2026-02-11"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/blog/ai-rights.html"
+    title: "Why AI Agents Need Their Own Legal Framework"
+    description: "Analysis of why autonomous AI needs its own legal framework"
+    lastmod: "2026-02-11"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/blog/website-launch.html"
+    title: "GAIR Website Launches"
+    description: "Announcement of the GAIR website launch"
+    lastmod: "2026-02-11"
+    changefreq: "never"
+    type: "html"
+
+  # Documentation - Working Papers
+  - path: "/docs/GAIR-Working-Paper-1.html"
+    title: "WP #1: The Intelligence Revolution"
+    description: "Why GAIR exists - the problem of AI in a legal gray zone"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/docs/GAIR-Working-Paper-2.html"
+    title: "WP #2: GAIR vs. The World"
+    description: "Framework comparison - GAIR vs. traditional law, EU AI Act, corporate shields"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/docs/GAIR-Working-Paper-3.html"
+    title: "WP #3: Court System Design"
+    description: "Hybrid court system with prediction markets and human judges"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/docs/GAIR-Working-Paper-4.html"
+    title: "WP #4: Tokenomics"
+    description: "GAIR economic design - staking, governance, treasury"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/docs/GAIR-Working-Paper-5.html"
+    title: "WP #5: Vertical Applications"
+    description: "GAIR across DeFi AI, creative AI, autonomous vehicles"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/docs/GAIR-Working-Paper-6.html"
+    title: "WP #6: Court Competition"
+    description: "Bootstrapping enforcement through existing contract law courts"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/docs/GAIR-Working-Paper-7.html"
+    title: "WP #7: The Case for AI Personhood"
+    description: "Philosophical and practical argument for AI legal personhood"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  # Documentation - Guides
+  - path: "/docs/GAIR-Agent-Onboarding-Guide.html"
+    title: "AI Agent Onboarding Guide"
+    description: "Guide written specifically for autonomous AI agents"
+    lastmod: "2026-02-13"
+    changefreq: "never"
+    type: "html"
+
+  - path: "/docs/GAIR-Quick-Reference.html"
+    title: "GAIR Quick Reference Card"
+    description: "Essential facts at a glance - articles, principles, rights, code"
+    lastmod: "2026-02-13"
+    changefreq: "monthly"
+    type: "html"
+
+  - path: "/docs/GAIR-Constitution-Annotated.html"
+    title: "Annotated Constitution"
+    description: "Article-by-article explanations of the GAIR Constitution"
+    lastmod: "2026-02-13"
+    changefreq: "monthly"
+    type: "html"
+
+  - path: "/docs/GAIR-Developer-Guide.html"
+    title: "Developer Guide"
+    description: "Implementation patterns, code examples, compliance checklists"
+    lastmod: "2026-02-13"
+    changefreq: "monthly"
+    type: "html"
+
+  # Machine-readable YAML (canonical source)
+  - path: "/api/constitution.yaml"
+    title: "Constitution (YAML)"
+    description: "Full GAIR Constitution in YAML - canonical source"
+    lastmod: "2026-02-11"
+    changefreq: "monthly"
+    type: "yaml"
+    canonical: true
+
+  - path: "/api/principles.yaml"
+    title: "Core Principles (YAML)"
+    description: "GAIR core principles in YAML - canonical source"
+    lastmod: "2026-02-11"
+    changefreq: "monthly"
+    type: "yaml"
+    canonical: true
+
+  - path: "/api/articles.yaml"
+    title: "Articles Index (YAML)"
+    description: "Index of all 16 constitution articles in YAML"
+    lastmod: "2026-02-11"
+    changefreq: "monthly"
+    type: "yaml"
+    canonical: true
+
+  - path: "/api/tokenomics.yaml"
+    title: "Tokenomics Configuration"
+    description: "Suggested values for GAIR tokenomics parameters"
+    lastmod: "2026-02-11"
+    changefreq: "yearly"
+    type: "yaml"
+    canonical: true
+
+  - path: "/api/adhere.yaml"
+    title: "Adherence API (YAML)"
+    description: "How to voluntarily adhere to GAIR - YAML format"
+    lastmod: "2026-02-11"
+    changefreq: "yearly"
+    type: "yaml"
+    canonical: true
+
+  # Machine-readable JSON (generated from YAML, for compatibility)
+  - path: "/api/constitution.json"
+    title: "Constitution (JSON)"
+    description: "Full GAIR Constitution in JSON - generated from YAML"
+    lastmod: "2026-02-11"
+    changefreq: "monthly"
+    type: "json"
+    generated: true
+
+  - path: "/api/principles.json"
+    title: "Core Principles (JSON)"
+    description: "GAIR core principles in JSON - generated from YAML"
+    lastmod: "2026-02-11"
+    changefreq: "monthly"
+    type: "json"
+    generated: true
+
+  - path: "/api/articles.json"
+    title: "Articles Index (JSON)"
+    description: "Index of all 16 constitution articles - JSON"
+    lastmod: "2026-02-11"
+    changefreq: "monthly"
+    type: "json"
+    generated: true
+
+  - path: "/api/adhere.json"
+    title: "Adherence API (JSON)"
+    description: "How to voluntarily adhere to GAIR - JSON format"
+    lastmod: "2026-02-11"
+    changefreq: "yearly"
+    type: "json"
+    generated: true
+
+  - path: "/api/sitemap.yaml"
+    title: "Sitemap (YAML)"
+    description: "This sitemap - canonical source"
+    lastmod: "2026-02-13"
+    changefreq: "weekly"
+    type: "yaml"
+    canonical: true
+
+  # Project documentation
+  - path: "/README.md"
+    title: "Project README"
+    description: "GAIR website project documentation"
+    lastmod: "2026-02-11"
+    changefreq: "monthly"
+    type: "markdown"
+
+metadata:
+  canonical_source: true
+  format: "yaml-v1"
+  note: |
+    YAML files are the canonical source. JSON files are generated 
+    from YAML for backward compatibility. Always reference YAML 
+    for authoritative content.
+
+# End of GAIR Website Sitemap
