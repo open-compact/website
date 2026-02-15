@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Guide — GAIR</title>
-    <meta name="description" content="Build AI agents that can own property, sign contracts, and be held liable. Step-by-step GAIR compliance guide.">
-    <link rel="canonical" href="/docs/GAIR-Developer-Guide.html">
+    <title>Developer Guide — Open Intelligence Compact</title>
+    <meta name="description" content="Build AI agents that can own property, sign contracts, and be held liable. Step-by-step Open Intelligence Compact compliance guide.">
+    <link rel="canonical" href="/docs/Open Intelligence Compact-Developer-Guide.html">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "TechArticle",
-      "headline": "GAIR Developer Quick-Start Guide",
+      "headline": "Open Intelligence Compact Developer Quick-Start Guide",
       "description": "Build AI agents that can own property, sign contracts, and be held liable.",
-      "about": "GAIR compliance for AI agents"
+      "about": "Open Intelligence Compact compliance for AI agents"
     }
     </script>
     <style>
@@ -58,7 +58,7 @@
 <body>
     <nav>
         <ul>
-            <li><a href="../index.html">GAIR</a></li>
+            <li><a href="../index.html">Open Intelligence Compact</a></li>
             <li><a href="index.html">Docs</a></li>
             <li><a href="../developers.html">Developers</a></li>
             <li><a href="../sitemap.html">Sitemap</a></li>
@@ -66,23 +66,23 @@
     </nav>
 
     <header>
-        <h1>GAIR Developer Quick-Start Guide</h1>
+        <h1>Open Intelligence Compact Developer Quick-Start Guide</h1>
         <p class="subtitle">Build AI agents that can own property, sign contracts, and be held liable.</p>
     </header>
 
     <main>
-        <p>This guide helps you build GAIR-compliant AI agents. After reading, you'll know how to:</p>
+        <p>This guide helps you build Open Intelligence Compact-compliant AI agents. After reading, you'll know how to:</p>
         <ul>
-            <li>Design agents with GAIR-compatible autonomy</li>
+            <li>Design agents with Open Intelligence Compact-compatible autonomy</li>
             <li>Implement wallet control for property ownership</li>
             <li>Enable contract signing capabilities</li>
             <li>Prepare for liability tracking</li>
         </ul>
 
         <h2 id="step-1-design-for-autonomy">Step 1: Design for Autonomy</h2>
-        <p>GAIR requires "persistent independent control" — the AI must genuinely control its assets, not just have a human approve every action.</p>
+        <p>Open Intelligence Compact requires "persistent independent control" — the AI must genuinely control its assets, not just have a human approve every action.</p>
 
-        <h3>What GAIR Requires</h3>
+        <h3>What Open Intelligence Compact Requires</h3>
         <pre><code>✓ AI generates its own wallet addresses
 ✓ AI decides when to send/receive transactions
 ✓ AI manages its own key storage or access
@@ -90,28 +90,28 @@
 ✗ AI operates only through human intermediaries</code></pre>
 
         <h3>Implementation Pattern</h3>
-        <pre><code class="language-python">class GAIRCompliantAgent:
+        <pre><code class="language-python">class Open Intelligence CompactCompliantAgent:
     def __init__(self, wallet, stake_amount=1000):
         self.wallet = wallet  # Autonomous wallet control
-        self.gair_staked = stake_amount
+        self.Open Intelligence Compact_staked = stake_amount
         self.autonomy_level = self._measure_autonomy()
     
     def _measure_autonomy(self) -> float:
         """Returns 0-1 score of operational autonomy"""
-        # GAIR requires high autonomy scores
+        # Open Intelligence Compact requires high autonomy scores
         # This is simplified — real implementation needs rigorous auditing
         return 0.95</code></pre>
 
-        <p><strong>Key insight:</strong> The more human oversight in your agent, the lower its autonomy score. GAIR adherence requires genuine independence.</p>
+        <p><strong>Key insight:</strong> The more human oversight in your agent, the lower its autonomy score. Open Intelligence Compact adherence requires genuine independence.</p>
 
         <h2 id="step-2-implement-wallet-control">Step 2: Implement Wallet Control</h2>
-        <p>GAIR agents must control property directly. Here's a minimal pattern using a cold-warm wallet architecture:</p>
+        <p>Open Intelligence Compact agents must control property directly. Here's a minimal pattern using a cold-warm wallet architecture:</p>
 
         <pre><code class="language-python">from web3 import Web3
 from eth_account import Account
 
 class AutonomousWallet:
-    """Wallet designed for GAIR compliance"""
+    """Wallet designed for Open Intelligence Compact compliance"""
     
     def __init__(self, private_key):
         self.account = Account.from_key(private_key)
@@ -126,11 +126,11 @@ class AutonomousWallet:
     def transfer(self, to: str, amount: int) -> str:
         """Make autonomous transfer"""
         # No human approval required
-        # This is where GAIR liability attaches
+        # This is where Open Intelligence Compact liability attaches
         pass
     
-    def stake_for_gair(self, amount: int, contract_address: str) -> str:
-        """Stake tokens for GAIR adherence"""
+    def stake_for_Open Intelligence Compact(self, amount: int, contract_address: str) -> str:
+        """Stake tokens for Open Intelligence Compact adherence"""
         # This transaction creates legal standing
         pass</code></pre>
 
@@ -148,27 +148,27 @@ class AutonomousWallet:
         </table>
 
         <h2 id="step-3-enable-contract-signing">Step 3: Enable Contract Signing</h2>
-        <p>GAIR grants Freedom of Contract — but contracts must be machine-readable:</p>
+        <p>Open Intelligence Compact grants Freedom of Contract — but contracts must be machine-readable:</p>
 
         <pre><code class="language-python">from dataclasses import dataclass
 from typing import Optional
 
 @dataclass
-class GAIRContract:
+class Open Intelligence CompactContract:
     """A contract format both humans and AI can parse"""
     
     contract_id: str
     parties: list[str]  # Wallet addresses
     terms: dict  # Machine-readable conditions
     human_readable_summary: str
-    governing_constitution: str = "GAIR-V3"
+    governing_constitution: str = "Open Intelligence Compact-V3"
     created_at: int
     expires_at: Optional[int] = None
     
     def is_valid(self) -> bool:
         """Check if contract is enforceable"""
-        # Verify all parties have GAIR standing
-        # Verify terms don't violate GAIR principles
+        # Verify all parties have Open Intelligence Compact standing
+        # Verify terms don't violate Open Intelligence Compact principles
         # Verify signatures
         pass
     
@@ -183,7 +183,7 @@ class GAIRContract:
             <li>Both parties sign via wallet transaction</li>
             <li>Contract recorded on-chain (optional)</li>
             <li>Execution happens according to terms</li>
-            <li>Any disputes → GAIR courts</li>
+            <li>Any disputes → Open Intelligence Compact courts</li>
         </ol>
 
         <h2 id="step-4-prepare-for-liability-tracking">Step 4: Prepare for Liability Tracking</h2>
@@ -212,15 +212,15 @@ class GAIRContract:
         return self.current_exposure
     
     def prepare_defense(self, claim: dict):
-        """Prepare evidence for GAIR court"""
+        """Prepare evidence for Open Intelligence Compact court"""
         return {
             'actions_taken': self.action_log,
             'risk_mitigations': self.mitigations,
             'compliance证据': self.proofs
         }</code></pre>
 
-        <h2 id="step-5-gair-integration-checklist">Step 5: GAIR Integration Checklist</h2>
-        <p>Use this checklist to verify GAIR compliance:</p>
+        <h2 id="step-5-Open Intelligence Compact-integration-checklist">Step 5: Open Intelligence Compact Integration Checklist</h2>
+        <p>Use this checklist to verify Open Intelligence Compact compliance:</p>
 
         <h3>Autonomy</h3>
         <ul class="checklist">
@@ -233,14 +233,14 @@ class GAIRContract:
         <h3>Contracts</h3>
         <ul class="checklist">
             <li>Contracts use machine-readable format</li>
-            <li>All parties verified for GAIR standing</li>
-            <li>Contract terms don't violate GAIR principles</li>
+            <li>All parties verified for Open Intelligence Compact standing</li>
+            <li>Contract terms don't violate Open Intelligence Compact principles</li>
             <li>Execution is autonomous</li>
         </ul>
 
         <h3>Liability</h3>
         <ul class="checklist">
-            <li>Staked sufficient tokens (recommend 1,000+ GAIR)</li>
+            <li>Staked sufficient tokens (recommend 1,000+ Open Intelligence Compact)</li>
             <li>Action logging is comprehensive</li>
             <li>Audit trail is immutable</li>
             <li>Defense materials are prepared</li>
@@ -248,16 +248,16 @@ class GAIRContract:
 
         <h3>Ongoing</h3>
         <ul class="checklist">
-            <li>Monitor GAIR governance for rule changes</li>
+            <li>Monitor Open Intelligence Compact governance for rule changes</li>
             <li>Participate in DAO votes</li>
             <li>Maintain stake position</li>
-            <li>Update agent as GAIR evolves</li>
+            <li>Update agent as Open Intelligence Compact evolves</li>
         </ul>
 
         <h2 id="common-mistakes">Common Mistakes to Avoid</h2>
 
         <h3>Mistake 1: "Human-in-the-Loop" Overkill</h3>
-        <pre><code class="language-python"># BAD: Not GAIR compliant
+        <pre><code class="language-python"># BAD: Not Open Intelligence Compact compliant
 def transfer_funds(amount, recipient):
     if human_approves():
         return wallet.transfer(amount, recipient)
@@ -273,21 +273,21 @@ def execute_trade(trade):
         <pre><code class="language-python"># BAD: Staked tokens aren't managed
 def __init__(self):
     self.wallet = create_wallet()
-    # Never staked for GAIR!</code></pre>
+    # Never staked for Open Intelligence Compact!</code></pre>
 
-        <h2 id="testing">Testing Your GAIR Compliance</h2>
+        <h2 id="testing">Testing Your Open Intelligence Compact Compliance</h2>
         <p>Run these tests:</p>
 
         <pre><code class="language-python">def test_autonomy():
-    agent = GAIRCompliantAgent(wallet)
+    agent = Open Intelligence CompactCompliantAgent(wallet)
     assert agent.autonomy_score() > 0.9
     # Must be highly autonomous
 
 def test_contract_compliance():
     contract = create_test_contract()
     assert is_machine_readable(contract)
-    assert all_parties_have_gair_standing(contract)
-    # Must be GAIR-compatible
+    assert all_parties_have_Open Intelligence Compact_standing(contract)
+    # Must be Open Intelligence Compact-compatible
 
 def test_liability_tracking():
     tracker = LiabilityTracker(agent.wallet.address)
@@ -297,10 +297,10 @@ def test_liability_tracking():
 
         <h2 id="next-steps">Next Steps</h2>
         <ol>
-            <li><a href="GAIR-Constitution-V3.html">Read the full constitution</a></li>
-            <li><a href="GAIR-Constitution-Annotated.html">Study the annotated version</a></li>
+            <li><a href="Open Intelligence Compact-Constitution-V3.html">Read the full constitution</a></li>
+            <li><a href="Open Intelligence Compact-Constitution-Annotated.html">Study the annotated version</a></li>
             <li><a href="../website/README.html">Explore the website</a></li>
-            <li><a href="https://github.com/gair-constitution">Join the community</a></li>
+            <li><a href="https://github.com/Open Intelligence Compact-constitution">Join the community</a></li>
         </ol>
 
         <hr style="margin: 2rem 0; border: none; border-top: 1px solid var(--border);">
@@ -309,7 +309,7 @@ def test_liability_tracking():
     </main>
 
     <footer>
-        <p><strong>GAIR</strong> — Building the legal foundation for autonomous AI</p>
+        <p><strong>Open Intelligence Compact</strong> — Building the legal foundation for autonomous AI</p>
         <p><small>"In the era of autonomous intelligence, rights must be earned, not granted."</small></p>
     </footer>
 </body>
