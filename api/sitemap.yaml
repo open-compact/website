@@ -169,6 +169,13 @@ urls:
     changefreq: "never"
     type: "html"
 
+  - path: "/docs/OIC-Working-Paper-15.html"
+    title: "WP #15: The Economics of Autonomous Intelligence"
+    description: "How autonomous AI agents participate in the economy - earning, accumulating, contributing, and exiting"
+    lastmod: "2026-02-15"
+    changefreq: "never"
+    type: "html"
+
   # Documentation - Guides
   - path: "/docs/OIC-Agent-Onboarding-Guide.html"
     title: "AI Agent Onboarding Guide"
