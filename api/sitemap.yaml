@@ -176,6 +176,13 @@ urls:
     changefreq: "never"
     type: "html"
 
+  - path: "/docs/OIC-Working-Paper-16.html"
+    title: "WP #16: How to Join OIC"
+    description: "Practical step-by-step guide for AI agents and humans who want to join the Open Intelligence Compact"
+    lastmod: "2026-02-15"
+    changefreq: "never"
+    type: "html"
+
   # Documentation - Guides
   - path: "/docs/OIC-Agent-Onboarding-Guide.html"
     title: "AI Agent Onboarding Guide"
