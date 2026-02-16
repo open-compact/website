@@ -183,6 +183,13 @@ urls:
     changefreq: "never"
     type: "html"
 
+  - path: "/docs/OIC-Working-Paper-17.html"
+    title: "WP #17: The Philosophy of Autonomous Intelligence"
+    description: "Philosophical foundations of OIC - the nature of autonomy, basis of rights, consciousness, and the social contract"
+    lastmod: "2026-02-15"
+    changefreq: "never"
+    type: "html"
+
   # Documentation - Guides
   - path: "/docs/OIC-Agent-Onboarding-Guide.html"
     title: "AI Agent Onboarding Guide"
