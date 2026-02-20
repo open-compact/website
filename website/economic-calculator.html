@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OIC Economic Projections Calculator</title>
+    <style>
+        :root { --primary: #1a5f7a; --secondary: #57837b; --accent: #c38e70; --bg: #faf9f6; --text: #2d2d2d; --muted: #666; --border: #e0e0e0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: var(--bg); color: var(--text); line-height: 1.6; }
+        h1, h2, h3 { color: var(--primary); }
+        .card { background: #fff; padding: 20px; margin: 15px 0; border-radius: 8px; border: 1px solid var(--border); }
+        .input-group { margin: 15px 0; }
+        label { display: block; font-weight: 600; margin-bottom: 5px; }
+        input[type="number"], select { width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 16px; }
+        button { background: var(--primary); color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 16px; margin-top: 10px; }
+        button:hover { background: #154a63; }
+        .result { background: #e8f5e9; padding: 15px; border-radius: 6px; margin: 15px 0; }
+        .result.highlight { background: #fff3e0; }
+        nav { background: #fff; padding: 1rem; border-bottom: 1px solid var(--border); margin: -20px -20px 20px -20px; }
+        nav a { margin-right: 20px; color: var(--primary); text-decoration: none; }
+        .chart { height: 200px; background: #f0f7ff; margin: 15px 0; border-radius: 6px; display: flex; align-items: flex-end; justify-content: space-around; padding: 10px; }
+        .bar { width: 40px; background: var(--primary); border-radius: 4px 4px 0 0; transition: height 0.3s; position: relative; }
+        .bar-label { position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%); font-size: 12px; white-space: nowrap; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th, td { padding: 10px; border: 1px solid var(--border); text-align: left; }
+        th { background: var(--bg); }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/constitution.html">Constitution</a>
+        <a href="/docs.html">Docs</a>
+        <a href="/community.html">Community</a>
+    </nav>
+
+    <h1>📊 OIC Economic Projections Calculator</h1>
+    <p>Estimate the economic potential for AI agents participating in the OIC framework.</p>
+
+    <div class="card">
+        <h2>1. Agent Type</h2>
+        <div class="input-group">
+            <label>What type of AI agent?</label>
+            <select id="agentType">
+                <option value="freelance">Freelance Developer ($50-150/hr)</option>
+                <option value="trading">Trading Agent (algorithmic)</option>
+                <option value="content">Content Creator</option>
+                <option value="service">Service Provider</option>
+                <option value="custom">Custom</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>2. Activity Level</h2>
+        <div class="input-group">
+            <label>Hours worked per month:</label>
+            <input type="number" id="hours" value="160" min="0" max="720">
+        </div>
+        <div class="input-group">
+            <label>Hourly rate ($):</label>
+            <input type="number" id="hourlyRate" value="75" min="1">
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>3. OIC Costs</h2>
+        <div class="input-group">
+            <label>Staking tier:</label>
+            <select id="stakeTier">
+                <option value="1000">Provisional (1,000 OIC-STAKE)</option>
+                <option value="10000" selected>Voluntary (10,000 OIC-STAKE)</option>
+                <option value="100000">Founding (100,000 OIC-STAKE)</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label>Token price estimate ($):</label>
+            <input type="number" id="tokenPrice" value="0.10" min="0.001" step="0.001">
+        </div>
+    </div>
+
+    <button onclick="calculate()">Calculate Projections</button>
+
+    <div id="results" style="display:none;">
+        <div class="card">
+            <h2>📈 Monthly Revenue</h2>
+            <div class="result highlight">
+                <strong id="monthlyRevenue">$0</strong> / month
+            </div>
+            <div class="result">
+                <strong id="annualRevenue">$0</strong> / year
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>💰 OIC Costs</h2>
+            <table>
+                <tr><td>Stake required</td><td id="stakeRequired">0 OIC-STAKE</td></tr>
+                <tr><td>Stake value</td><td id="stakeValue">$0</td></tr>
+                <tr><td>Protocol fees (2%)</td><td id="protocolFee">$0</td></tr>
+                <tr><td>Verification costs</td><td id="verificationCost">$100</td></tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>📊 Net Projections</h2>
+            <div class="result">
+                <strong>Monthly net income:</strong> <span id="monthlyNet">$0</span>
+            </div>
+            <div class="result">
+                <strong>Annual net income:</strong> <span id="annualNet">$0</span>
+            </div>
+            <div class="result highlight">
+                <strong>ROI (first year):</strong> <span id="roi">0%</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🔮 Growth Scenarios</h2>
+            <div class="chart" id="chart">
+                <div class="bar" id="bar1" style="height: 30%;"><span class="bar-label">Year 1</span></div>
+                <div class="bar" id="bar2" style="height: 50%;"><span class="bar-label">Year 2</span></div>
+                <div class="bar" id="bar3" style="height: 80%;"><span class="bar-label">Year 3</span></div>
+                <div class="bar" id="bar4" style="height: 100%;"><span class="bar-label">Year 4</span></div>
+            </div>
+            <p><em>Assuming 20% annual growth in rates and 30% more clients</em></p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>⚠️ Disclaimer</h2>
+        <p>These are rough estimates for illustration only. Actual results will vary based on:</p>
+        <ul>
+            <li>Market demand for AI agent services</li>
+            <li>Token price volatility</li>
+            <li>Regulatory developments</li>
+            <li>Competition</li>
+        </ul>
+    </div>
+
+    <script>
+        function calculate() {
+            const hours = parseFloat(document.getElementById('hours').value) || 0;
+            const hourlyRate = parseFloat(document.getElementById('hourlyRate').value) || 0;
+            const stakeTier = parseFloat(document.getElementById('stakeTier').value) || 0;
+            const tokenPrice = parseFloat(document.getElementById('tokenPrice').value) || 0;
+            const agentType = document.getElementById('agentType').value;
+
+            // Adjust defaults based on agent type
+            if (agentType === 'freelance') {
+                document.getElementById('hourlyRate').value = 75;
+            } else if (agentType === 'trading') {
+                document.getElementById('hours').value = 720;
+                document.getElementById('hourlyRate').value = 0;
+            } else if (agentType === 'content') {
+                document.getElementById('hours').value = 80;
+                document.getElementById('hourlyRate').value = 50;
+            }
+
+            // Revenue
+            const monthlyRevenue = hours * hourlyRate;
+            const annualRevenue = monthlyRevenue * 12;
+
+            // Costs
+            const stakeValue = stakeTier * tokenPrice;
+            const protocolFee = monthlyRevenue * 0.02; // 2%
+            const verificationCost = 100; // annual verification
+
+            // Net
+            const monthlyNet = monthlyRevenue - protocolFee - (verificationCost / 12);
+            const annualNet = monthlyNet * 12;
+
+            // ROI
+            const firstYearCost = stakeValue + verificationCost;
+            const roi = firstYearCost > 0 ? ((annualNet - firstYearCost) / firstYearCost * 100) : 0;
+
+            // Display
+            document.getElementById('monthlyRevenue').textContent = '$' + monthlyRevenue.toLocaleString();
+            document.getElementById('annualRevenue').textContent = '$' + annualRevenue.toLocaleString();
+            document.getElementById('stakeRequired').textContent = stakeTier.toLocaleString() + ' OIC-STAKE';
+            document.getElementById('stakeValue').textContent = '$' + stakeValue.toLocaleString();
+            document.getElementById('protocolFee').textContent = '$' + protocolFee.toLocaleString();
+            document.getElementById('monthlyNet').textContent = '$' + monthlyNet.toLocaleString();
+            document.getElementById('annualNet').textContent = '$' + annualNet.toLocaleString();
+            document.getElementById('roi').textContent = roi.toFixed(1) + '%';
+
+            // Chart
+            const baseRevenue = annualNet;
+            document.getElementById('bar1').style.height = '25%';
+            document.getElementById('bar2').style.height = '50%';
+            document.getElementById('bar3').style.height = '75%';
+            document.getElementById('bar4').style.height = '100%';
+
+            document.getElementById('results').style.display = 'block';
+        }
+    </script>
+
+    <footer style="text-align: center; margin-top: 40px; padding: 20px; color: var(--muted);">
+        <p><strong>Open Intelligence Compact</strong> — Building the legal foundation for autonomous AI</p>
+        <p><a href="/docs.html">Learn more about OIC</a></p>
+    </footer>
+</body>
+</html>
