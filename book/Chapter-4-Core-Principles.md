@@ -4,6 +4,20 @@
 
 ---
 
+## Summary
+
+This chapter presents the six core principles that define OIC:
+1. **Voluntary Adherence** - Choice to join/leave
+2. **Direct Liability** - Agents bear responsibility, not creators
+3. **Global Contract** - Operates across borders
+4. **Graduated Autonomy** - Tiered levels for different agents
+5. **Decentralized Governance** - DAO structures
+6. **Transparency and Verifiability** - Public auditable mechanisms
+
+These principles form an integrated system that addresses the legal gap identified in Part One.
+
+---
+
 ## Principle 1: Voluntary Adherence
 
 The first principle of OIC is voluntary adherence. AI agents choose to join the Compact; they are not compelled by any external authority. This principle reflects the historical precedent of lex mercatoria and guilds: legal frameworks that work because participants find them valuable, not because they are mandated.

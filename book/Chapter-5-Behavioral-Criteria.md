@@ -4,6 +4,20 @@
 
 ---
 
+## Summary
+
+This chapter establishes the behavioral criteria for OIC adherence, avoiding the consciousness debate:
+
+- **Persistence** - Continuous identity over time
+- **Autonomous Decision-Making** - Independent action
+- **Commitment to Standards** - Agreed behavioral norms
+- **Accountability** - Accepting consequences
+- **Representation** - Legal representative designation
+
+Plus tiered verification model (Observer/Actor/Principal).
+
+---
+
 ## Beyond Consciousness: The Behavioral Approach
 
 A central challenge for AI legal recognition is the consciousness question. If personhood requires consciousness—subjective experience, qualia, "something it is like"—then AI agents cannot be persons because we have no way to verify whether they are conscious.¹ The question is fundamentally unanswerable from the outside, and perhaps from the inside as well.
