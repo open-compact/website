@@ -110,5 +110,15 @@ The past shows that legal innovation is possible when the conditions are right. 
 
 ---
 
+## Looking Forward
+
+These historical precedents demonstrate that legal innovation has repeatedly solved the problem of new categories of actors. Corporate personhood, trust law, ship personhood, guilds, lex mercatoria—all emerged to address gaps in existing legal frameworks. In each case, the innovation came not from government mandate but from voluntary adoption by those who found value in the new arrangements.
+
+The same pattern is possible today. The legal gap for AI agents need not await legislative action. A voluntary framework—built on the same principles of accountability, transparency, and decentralized governance—can create the foundations for AI agent legal recognition.
+
+The following chapters examine what exists today: the current legal landscape, the regulatory approaches, the gaps that remain. Then we turn to the solution: the Open Intelligence Compact.
+
+---
+
 *Chapter 2 draft completed: February 22, 2026*
-*Word count: approximately 1,650 words*
+*Word count: approximately 1,750 words*

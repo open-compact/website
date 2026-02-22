@@ -98,5 +98,15 @@ This is what OIC provides. Rather than waiting for governments to act, OIC creat
 
 ---
 
+## Looking Forward
+
+The analysis in this chapter reveals a consistent pattern: existing legal frameworks address AI but do not solve the fundamental problem of AI agent legal status. The EU AI Act regulates deployment; US approaches are fragmented; international coordination is absent. What is missing is a framework that creates a legal category for AI agents themselves—not as tools, not as human proxies, but as autonomous actors with defined rights and responsibilities.
+
+This is the gap that the Open Intelligence Compact fills. The following chapters present OIC as a working solution: a voluntary framework that creates legal recognition for AI agents through adherence, accountability, and governance. The framework builds on the historical precedents explored in Chapter 2, applies the behavioral criteria that Chapter 5 defines, and implements the mechanisms that subsequent chapters describe.
+
+The question is no longer whether such a framework is needed. The question is whether we will build it.
+
+---
+
 *Chapter 3 draft completed: February 22, 2026*
 *Word count: approximately 1,450 words*
