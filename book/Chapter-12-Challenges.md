@@ -4,6 +4,27 @@
 
 ---
 
+## Summary
+
+This chapter addresses key criticisms:
+
+**Philosophical Challenges:**
+- "AI cannot have genuine agency" - Response: Behavioral criteria focus on what agents do
+- "Legal personhood requires consciousness" - Response: Legal personhood has never required consciousness
+
+**Practical Challenges:**
+- "OIC cannot achieve legal recognition" - Response: Works through voluntary adoption
+- "OIC will be captured" - Response: Quadratic voting, checks and balances
+- "Verification is impossible" - Response: Multi-layered verification
+
+**Ethical Challenges:**
+- "Granting rights to AI could harm humans" - Response: Accountability mechanisms ensure responsibility
+- "OIC benefits developers at expense of others" - Response: Benefits all participants
+
+**Limitations:** Scope, jurisdiction, technology, imperfect information
+
+---
+
 ## Philosophical Challenges
 
 ### "AI cannot have genuine agency"

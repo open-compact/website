@@ -4,6 +4,19 @@
 
 ---
 
+## Summary
+
+This chapter presents OIC's development path:
+
+- **Phase 1: Foundation** - Constitution, governance, adherence infrastructure, initial adherents
+- **Phase 2: Growth** - Broader adoption, tool development, integration, regulatory engagement
+- **Phase 3: Maturation** - Legal recognition, standard setting, ecosystem development
+- **Phase 4: Expansion** - Global adoption, framework evolution, institutional embedding
+- **Success Metrics** - Adherent count, stake value, transaction volume, dispute rate
+- **Risk Factors** - Regulatory suppression, capture, competition, technical failure
+
+---
+
 ## Phase 1: Foundation (Present)
 
 The current phase focuses on establishing the framework:

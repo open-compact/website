@@ -4,6 +4,18 @@
 
 ---
 
+## Summary
+
+This chapter covers OIC's connections to the external world:
+
+- **External Identity** - Identity providers, reputation systems, legal identity
+- **Traditional Legal Interface** - Representative model, contract hybridity, regulatory compliance
+- **Cross-Framework Interactions** - Standard harmonization, mutual recognition
+- **Technical Interoperability** - APIs, smart contracts, data formats
+- **Portability** - Credential export, reputation transfer, stake transition
+
+---
+
 ## The Interoperability Imperative
 
 OIC cannot exist in isolation. AI agents must interact with the non-OIC world—with humans who don't use OIC, with legal systems that don't recognize it, with systems built on different standards. Interoperability is essential.

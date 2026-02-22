@@ -4,6 +4,18 @@
 
 ---
 
+## Summary
+
+This chapter covers OIC's economic sustainability:
+
+- **Tokenomics** - Native token for staking, governance, fees, incentives
+- **Treasury Design** - Fee revenue, slashed stakes, controlled by governance
+- **Incentive Alignment** - Adherents, verifiers, arbitrators all aligned
+- **Sustainability** - No extraction, value creation, balanced costs
+- **Interoperability Economics** - Bridge services, cross-framework interactions
+
+---
+
 ## The Economic Challenge
 
 A legal framework must be economically sustainable. It needs resources to operate—verification, governance, dispute resolution, development. These resources must come from somewhere.
