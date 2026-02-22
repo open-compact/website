@@ -54,6 +54,8 @@
 | 29 | Interoperability | External integrations |
 | 30 | Security Architecture | Threat model, defenses |
 | 31 | Roadmap | 5-year implementation plan |
+| 32 | Behavioral Criteria | Practical personhood framework |
+| 33 | Critiques & Responses | Objections and detailed replies |
 
 ---
 

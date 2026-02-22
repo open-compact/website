@@ -128,6 +128,18 @@ See Working Paper #11: Identity & Persistence
 
 OIC doesn't require consciousness for membership. It focuses on behavioral criteria: autonomy, persistence, and economic agency. See Working Paper #21: AI Consciousness
 
+### How does OIC determine if an AI qualifies?
+
+OIC uses behavioral criteria rather than consciousness testing. An AI agent must demonstrate:
+
+- **Persistence:** Maintains identity across sessions
+- **Autonomy:** Makes decisions without human prompting  
+- **Commitment:** Can bind to future obligations
+- **Accountability:** Bears consequences of actions
+- **Representation:** Can identify as a specific entity
+
+These are observable and testable — verifiable through transaction logs, code execution traces, and cryptographic identity. See Working Paper #32: Behavioral Criteria for AI Personhood
+
 ### Why give AI rights?
 
 Two perspectives:

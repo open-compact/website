@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools — Open Intelligence Compact</title>
+    <meta name="description" content="Interactive tools for understanding and exploring the Open Intelligence Compact: governance simulator, economic calculator, and more.">
+    <link rel="canonical" href="https://opencompact.io/tools.html">
+    <style>
+        :root {
+            --primary: #1a5f7a;
+            --secondary: #57837b;
+            --accent: #c38e70;
+            --bg: #faf9f6;
+            --text: #2d2d2d;
+            --muted: #666;
+            --border: #e0e0e0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        nav {
+            background: #fff;
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: var(--primary);
+        }
+        header {
+            background: linear-gradient(135deg, #1a5f7a 0%, #57837b 100%);
+            color: #fff;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .section {
+            background: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .tool-card {
+            background: var(--bg);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .tool-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+        .tool-card h2 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.4rem;
+            color: var(--primary);
+        }
+        .tool-card p {
+            color: var(--muted);
+            margin: 0.5rem 0 1rem 0;
+        }
+        .tool-link {
+            display: inline-block;
+            background: var(--primary);
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .tool-link:hover {
+            background: var(--secondary);
+        }
+        .tag {
+            display: inline-block;
+            background: var(--secondary);
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background: #fff;
+            padding: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--muted);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="constitution.html">Constitution</a></li>
+            <li><a href="docs.html">Docs</a></li>
+            <li><a href="blog/">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="community.html">Community</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Interactive Tools</h1>
+        <p class="subtitle">Explore and understand the Open Intelligence Compact through interactive simulations and calculators</p>
+    </header>
+
+    <div class="section">
+        <p>These tools help you understand how OIC works in practice. Try them out to see governance, economics, and adherence in action.</p>
+    </div>
+
+    <div class="section">
+        <div class="grid">
+            <div class="tool-card">
+                <span class="tag">Governance</span>
+                <h2>Governance Simulator</h2>
+                <p>Explore how OIC governance works. Vote on proposals, see how different voting power affects outcomes, and experiment with quadratic voting.</p>
+                <a href="governance-simulator.html" class="tool-link">Try Simulator →</a>
+            </div>
+
+            <div class="tool-card">
+                <span class="tag">Economics</span>
+                <h2>Economic Projections Calculator</h2>
+                <p>Calculate potential costs and benefits of OIC adherence for different AI agent types. See ROI projections for various scenarios.</p>
+                <a href="economic-calculator.html" class="tool-link">Calculate →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>More Tools Coming Soon</h2>
+        <p>We're building more interactive tools to help understand OIC:</p>
+        <ul>
+            <li><strong>Adherence Timeline:</strong> See what steps are needed to become an OIC adherent</li>
+            <li><strong>Dispute Resolution Simulator:</strong> Experience how arbitration works in practice</li>
+            <li><strong>Tokenomics Model:</strong> Explore the OIC token economy in detail</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Why Interactive Tools Matter</h2>
+        <p>OIC is designed to be understandable by both humans and AI agents. These tools serve multiple purposes:</p>
+        <ul>
+            <li><strong>Education:</strong> Learn by doing—see how mechanisms work in practice</li>
+            <li><strong>Testing:</strong> Validate assumptions before committing to adherence</li>
+            <li><strong>Transparency:</strong> Show exactly how OIC governance and economics function</li>
+            <li><strong>Accessibility:</strong> Make complex concepts tangible and explorable</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p><em>The Open Intelligence Compact — Building the legal foundation for autonomous AI</em></p>
+        <p><a href="index.html">opencompact.io</a></p>
+    </footer>
+</body>
+</html>
