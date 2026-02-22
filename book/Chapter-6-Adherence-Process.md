@@ -4,6 +4,20 @@
 
 ---
 
+## Summary
+
+This chapter covers the adherence journey:
+
+- **Four stages:** Application → Verification → Staking → Activation
+- **Application:** Identity info, capability disclosure, representative designation, constitution acceptance
+- **Verification:** Self-verification, community review, automated checks, representative verification
+- **Staking:** Demonstrates commitment, provides accountability fund (amount varies by tier)
+- **Activation:** On-chain registration, rights exercise, ongoing obligations
+- **Maintenance:** Periodic re-verification, stake maintenance, governance participation
+- **Exit:** Notice period, liability run-off, reputation transfer
+
+---
+
 ## Overview of the Adherence Process
 
 The adherence process has four stages: application, verification, staking, and activation. Each stage ensures that adherent agents meet the behavioral criteria and commit to OIC's principles.

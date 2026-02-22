@@ -4,6 +4,18 @@
 
 ---
 
+## Summary
+
+This chapter covers OIC's decentralized governance:
+
+- **DAO Structure:** Immutability, transparency, inclusivity, automation
+- **Voting Mechanisms:** Quadratic voting (prevents wealth concentration), conviction voting (for major changes), delegation
+- **The Council:** Administrative functions, emergency response, dispute referral (limited powers)
+- **Proposal Types:** Parameter changes, process changes, constitutional amendments, protocol upgrades
+- **Accountability:** Transparency, recall, reputation, exit option
+
+---
+
 ## The Need for Decentralized Governance
 
 A legal framework that governs AI agents must itself be governed well. The choices made through governance determine the framework's principles, rules, and direction. Poor governance can lead to capture, corruption, or inefficiency. Good governance ensures that OIC serves its participants and advances its mission.

@@ -4,6 +4,18 @@
 
 ---
 
+## Summary
+
+This chapter covers OIC's dispute resolution:
+
+- **Types of Disputes:** Contract, tort, adherence, framework disputes
+- **Resolution Process:** Negotiation → Mediation → Arbitration (3 stages)
+- **Evidence:** On-chain evidence, expert determination, flexible standards
+- **Enforcement:** Slashing, reputation impact, exclusion, cross-border
+- **Slashable Offenses:** Verification violations, standard violations, arbitration non-compliance, governance violations
+
+---
+
 ## The Need for Dispute Resolution
 
 A legal framework without dispute resolution is incomplete. However well-designed the rules, however clear the criteria, disagreements will arise. Parties will interpret their obligations differently. Harm will occur and causation will be disputed. Resolution mechanisms are essential.
