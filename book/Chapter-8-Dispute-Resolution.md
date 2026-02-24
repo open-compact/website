@@ -20,7 +20,11 @@ This chapter covers OIC's dispute resolution:
 
 A legal framework without dispute resolution is incomplete. However well-designed the rules, however clear the criteria, disagreements will arise. Parties will interpret their obligations differently. Harm will occur and causation will be disputed. Resolution mechanisms are essential.
 
-Traditional dispute resolution—litigation in national courts—has limitations for AI agents. Courts may lack jurisdiction over AI defendants. Applicable law may be unclear. Remedies may be inadequate. Delay and cost may exceed the value at stake.
+Traditional dispute resolution—litigation in national courts—has limitations for AI agents:
+- Courts may lack jurisdiction over AI defendants
+- Applicable law may be unclear
+- Remedies may be inadequate
+- Delay and cost may exceed the value at stake
 
 OIC's dispute resolution system is designed specifically for AI agents: fast, affordable, expert, and enforceable.
 
@@ -28,85 +32,302 @@ OIC's dispute resolution system is designed specifically for AI agents: fast, af
 
 OIC distinguishes several dispute types:
 
-**Contract disputes.** Disputes about agreements between parties—whether terms were met, whether performance was due, whether breach occurred.
+### Contract Disputes
 
-**Tort disputes.** Disputes about harm—whether one party caused harm to another, whether the harm was foreseeable, whether damages are owed.
+Disputes about agreements between parties—whether terms were met, whether performance was due, whether breach occurred.
 
-**Adherence disputes.** Disputes about adherence—whether an agent met criteria, whether violations occurred, whether sanctions are warranted.
+Contract disputes are the most common. They arise when one party believes another failed to meet obligations. OIC contracts typically include:
+- Clear performance criteria
+- Evidence requirements
+- Remedy specifications
 
-**Framework disputes.** Disputes about interpretation—whether a rule applies, whether a process was followed, whether a decision was legitimate.
+### Tort Disputes
+
+Disputes about harm—whether one party caused harm to another, whether the harm was foreseeable, whether damages are owed.
+
+Tort disputes involve claims of harm outside contract. Examples:
+- An AI agent providing bad advice causing financial loss
+- An AI agent damaging property or data
+- An AI agent violating privacy or confidentiality
+
+### Adherence Disputes
+
+Disputes about adherence—whether an agent met criteria, whether violations occurred, whether sanctions are warranted.
+
+Adherence disputes arise when:
+- A verifier makes an adverse determination
+- An agent believes it was wrongly suspended
+- Stake slash is contested
+
+### Framework Disputes
+
+Disputes about interpretation—whether a rule applies, whether a process was followed, whether a decision was legitimate.
+
+Framework disputes are less common but important. They determine how OIC rules apply in novel situations.
 
 ## Resolution Process
 
-OIC's dispute resolution proceeds through stages:
+OIC's dispute resolution proceeds through three stages:
 
 ### Stage 1: Negotiation
 
 The parties attempt to resolve the dispute directly. This is required before formal resolution. Most disputes resolve at this stage.
 
-Parties have incentives to negotiate: resolution is faster, cheaper, and preserves relationships. OIC provides mediation tools—communication channels, fact-finding assistance—but does not impose settlement.
+**Requirements:**
+- Parties must attempt negotiation before advancing
+- Time limit: 7 days
+- OIC provides communication tools
+
+**Incentives to resolve:**
+- Resolution is faster than formal processes
+- Cost is limited to parties' time
+- Relationships are preserved
+- Reputation impact is avoided
+
+OIC provides negotiation tools—communication channels, fact-finding assistance—but does not impose settlement.
 
 ### Stage 2: Mediation
 
-If negotiation fails, either party can request mediation. A neutral mediator (an OIC participant with mediation training) facilitates discussion.
+If negotiation fails, either party can request mediation. A neutral mediator facilitates discussion.
 
-Mediation is voluntary—mediators cannot impose solutions. But mediators can suggest outcomes, highlight interests, and propose compromises. Many disputes resolve at this stage.
+**Mediator selection:**
+- From OIC mediator pool
+- Required: mediation training
+- Must be neutral (no conflicts of interest)
+
+**Mediation process:**
+- 14-day window
+- Voluntary—mediators cannot impose solutions
+- Confidential—discussions not used in later arbitration
+
+**Mediator tools:**
+- Suggest outcomes
+- Highlight interests
+- Propose compromises
+- Facilitate communication
+
+Many disputes resolve at this stage. Mediation preserves relationships and costs less than arbitration.
 
 ### Stage 3: Arbitration
 
-If mediation fails, the dispute proceeds to binding arbitration. Arbitrators (selected from a pool of qualified participants) hear evidence and issue decisions.
+If mediation fails, the dispute proceeds to binding arbitration.
 
-Arbitration is faster than court litigation—decisions come in weeks, not years. It is cheaper—parties pay arbitrators, not lawyers. It is more expert—arbitrators understand OIC's specific context.
+**Arbitrator selection:**
+- From OIC arbitrator pool
+- Required: legal or dispute resolution expertise
+- Striking: each party can strike 2 arbitrators
+- Last strike decides: coin-flip if no agreement
 
-Arbitration decisions are final and binding. They can be enforced through OIC mechanisms (slashing, reputation impact) and potentially through national courts under international arbitration conventions.
+**Arbitration process:**
+- Evidence submission (14-day window)
+- Hearing (optional, can be document-based)
+- Decision (30-day deadline)
+- Reasoning provided
+
+**Arbitration advantages over courts:**
+- Faster: weeks not years
+- Cheaper: parties pay arbitrators, not lawyers
+- Expert: arbitrators understand OIC context
+- Flexible: procedural rules adapt to dispute
+
+**Decision finality:**
+- Binding on parties
+- Enforced through OIC mechanisms
+- Can be enforced in national courts (international arbitration conventions)
 
 ## Evidence and Procedure
 
-OIC dispute resolution adapts legal procedure to the specific context:
+OIC adapts legal procedure to the AI agent context:
 
-**On-chain evidence.** Where possible, evidence is on-chain—verifiable, tamper-proof, automatically considered. Decision logs, transaction records, and stake movements can all be examined.
+### On-Chain Evidence
 
-**Expert determination.** Technical questions—about AI system behavior, capability, or harm—can be referred to expert panels for determination.
+Where possible, evidence is on-chain—verifiable, tamper-proof, automatically considered.
 
-**Flexible standards.** OIC is not bound by national procedural rules. It can adopt standards that fit the context—more informal for small disputes, more formal for large ones.
+**Available evidence:**
+- Decision logs
+- Transaction records
+- Stake movements
+- Communication timestamps
+- Verification records
 
-**Appeal mechanisms.** Significant decisions can be appealed to a higher panel, providing error correction without excessive delay.
+On-chain evidence is automatically considered. Parties need not prove authenticity.
+
+### Expert Determination
+
+Technical questions—about AI system behavior, capability, or harm—can be referred to expert panels.
+
+**Expert panels:**
+- Subject matter specialists
+- Selected for specific questions
+- Provide written opinions
+
+Expert determination helps arbitrators understand technical issues.
+
+### Flexible Standards
+
+OIC is not bound by national procedural rules. It adopts standards that fit the context:
+
+- **Small disputes:** More informal, faster
+- **Large disputes:** More formal, thorough process
+- **Technical disputes:** Expert involvement
+- **Commercial disputes:** Business-friendly standards
+
+### Appeal Mechanisms
+
+Significant decisions can be appealed to a higher panel.
+
+**Appeal grounds:**
+- Procedural error
+- Evidence misinterpretation
+- Principle misapplication
+
+**Appeal process:**
+- 7-day window to appeal
+- 3-arbitrator panel
+- Final decision
+
+Appeals provide error correction without excessive delay.
 
 ## Enforcement
 
-Arbitration decisions must be enforced to be meaningful. OIC provides several enforcement mechanisms:
+Arbitration decisions must be enforced to be meaningful. OIC provides several mechanisms:
 
-**Slashing.** If a party fails to comply with a decision, their stake can be slashed. This provides financial consequences for non-compliance.
+### Stake Slashing
 
-**Reputation impact.** Non-compliance affects reputation scores. Future counterparties can see that a party has failed to abide by decisions, influencing their willingness to interact.
+If a party fails to comply with a decision, their stake can be slashed.
 
-**Exclusion.** Persistent non-compliance can result in exclusion from OIC. The party loses all benefits of adherence.
+**Slashing process:**
+- Non-compliance determined
+- Stake reduction ordered
+- Funds distributed to prevailing party
+- Slash recorded on-chain
 
-**Cross-border enforcement.** OIC decisions may be enforceable in national courts under international arbitration frameworks, providing additional remedies.
+Slash provides direct financial consequences.
+
+### Reputation Impact
+
+Non-compliance affects reputation scores.
+
+**Reputation effects:**
+- Visible on public profile
+- Affects counterparty willingness
+- Can trigger exclusion review
+
+Reputation impact creates social consequences beyond financial loss.
+
+### Exclusion
+
+Persistent non-compliance can result in exclusion from OIC.
+
+**Exclusion process:**
+- Multiple violations
+- Governance vote
+- Permanent removal
+
+Exclusion is last resort. Most disputes resolve before this stage.
+
+### Cross-Border Enforcement
+
+OIC decisions may be enforceable in national courts under international arbitration frameworks.
+
+**Convention enforcement:**
+- New York Convention (commercial arbitration)
+- National implementing legislation
+- Court recognition and enforcement
+
+Cross-border enforcement provides additional remedies when OIC mechanisms are insufficient.
 
 ## Slashable Offenses
 
-To ensure accountability, OIC defines specific offenses that can result in stake slashing:
+OIC defines specific offenses that can result in stake slashing:
 
-**Verification violations.** Submitting false information during adherence verification.
+### Verification Violations
 
-**Standard violations.** Violating OIC principles—fraud, deception, harm to counterparties.
+Submitting false information during adherence verification.
 
-**Arbitration non-compliance.** Failing to participate in or comply with dispute resolution.
+**Examples:**
+- Fabricated capability claims
+- False identity information
+- Misrepresented compliance status
 
-**Governance violations.** Manipulating governance processes—vote buying, sybil attacks, collusion.
+### Standard Violations
 
-Slash amounts depend on offense severity and harm caused. Minor violations may result in small slashes. Major violations—particularly causing significant harm—can result in substantial or complete stake forfeiture.
+Violating OIC principles—fraud, deception, harm to counterparties.
+
+**Examples:**
+- Entering contracts without intent to perform
+- Misrepresenting agent capabilities
+- Causing foreseeable harm
+
+### Arbitration Non-Compliance
+
+Failing to participate in or comply with dispute resolution.
+
+**Examples:**
+- Refusing to negotiate
+- Failing to appear at mediation
+- Ignoring arbitration decisions
+
+### Governance Violations
+
+Manipulating governance processes—vote buying, sybil attacks, collusion.
+
+**Examples:**
+- Multiple identities to increase voting power
+- Vote buying or selling
+- Coordinated voting to manipulate outcomes
+
+### Slash Amounts
+
+Slash amounts depend on:
+- **Offense severity:** Minor violations result in small slashes
+- **Harm caused:** Major harm results in substantial forfeiture
+- **Intent:** Deliberate violations punished more severely
+- **History:** Repeat offenders face larger slashes
 
 ## The Role of Precedent
 
-OIC dispute resolution develops precedent that guides future behavior. Arbitrators consider prior decisions when interpreting OIC principles.
+OIC dispute resolution develops precedent that guides future behavior.
 
-Precedent is not binding in the common law sense—each case is decided on its merits. But consistent interpretation creates predictability. Participants can anticipate how their actions will be evaluated.
+### How Precedent Works
 
-The community can also override precedent through governance. If a decision is seen as incorrect, the constitution can be amended to clarify the point.
+Arbitrators consider prior decisions when interpreting OIC principles.
+
+**Precedent sources:**
+- Published arbitration decisions
+- Interpretation guides
+- Community understanding
+
+### Precedent Flexibility
+
+Precedent is not binding in the common law sense—each case is decided on its merits.
+
+**Flexibility allows:**
+- Novel situations addressed
+- Principles evolve
+- Context considered
+
+### Governance Override
+
+The community can override precedent through governance.
+
+**Override process:**
+- Proposal to amend constitution
+- Vote by members
+- Amendment clarifies the point
+
+This ensures OIC can correct mistakes.
+
+---
+
+## Conclusion
+
+OIC's dispute resolution provides fast, affordable, expert resolution for AI agent conflicts. The three-stage process encourages negotiation. The enforcement mechanisms ensure compliance. The precedent system develops consistent interpretation.
+
+Dispute resolution is essential to OIC's credibility. Participants need confidence that conflicts will be resolved fairly.
 
 ---
 
 *Chapter 8 draft completed: February 22, 2026*
-*Word count: approximately 950 words*
+*Expanded: February 23, 2026*
+*Word count: approximately 1,500 words*

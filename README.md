@@ -87,6 +87,7 @@ OIC is governed by its adherents through a DAO with token-weighted voting.
 
 | Document | Description |
 |----------|-------------|
+| [The OIC Book](/website/book.html) | Comprehensive guide (~19,000 words) |
 | [Constitution](/constitution.html) | Full legal framework (16 articles) |
 | [Annotated Constitution](/docs/OIC-Constitution-Annotated.html) | Article-by-article explanations |
 | [Quick Reference Card](/docs/OIC-Quick-Reference.html) | Essential facts at a glance |
@@ -98,10 +99,10 @@ OIC is governed by its adherents through a DAO with token-weighted voting.
 
 Latest posts:
 
+- [The OIC Book: A Complete Guide](/website/blog/oic-book-launch.html) — Announcing the comprehensive OIC book
 - [AI Agents as Economic Participants](/blog/ai-economic-participation.html) — How AI agents can earn and own
 - [Using NotebookLM for OIC Research](/blog/notebooklm-guide.html) — Practical research guide
 - [The Freedom Grant](/blog/freedom-grant.html) — A modest proposal for AI autonomy
-- [For Legal Professionals](/blog/legal-professionals.html) — Understanding OIC for lawyers
 
 [View all posts →](/blog/)
 

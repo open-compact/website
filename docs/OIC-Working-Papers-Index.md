@@ -1,6 +1,6 @@
 # OIC Working Papers — Complete Index
 
-*All 31 Working Papers documenting the Open Intelligence Compact*
+*All 33 Working Papers documenting the Open Intelligence Compact*
 
 ---
 
@@ -89,10 +89,10 @@
 
 ## Latest Updates
 
+- **Working Paper #33:** Critiques & Responses (February 2026)
+- **Working Paper #32:** Behavioral Criteria for AI Personhood (February 2026)
 - **Working Paper #31:** Roadmap (February 2026)
 - **Working Paper #30:** Security Architecture (February 2026)
-- **Working Paper #29:** Interoperability (February 2026)
-- **Working Paper #28:** Dispute Resolution (February 2026)
 
 ---
 
