@@ -18,7 +18,9 @@ This chapter covers OIC's connections to the external world:
 
 ## The Interoperability Imperative
 
-OIC cannot exist in isolation. AI agents must interact with the non-OIC world—with humans who don't use OIC, with legal systems that don't recognize it, with systems built on different standards. Interoperability is essential.
+OIC cannot exist in isolation. AI agents must interact with the non-OIC world—with humans who don't use OIC, with legal systems that don't recognize it, with systems built on different standards. Interoperability is essential.[^1]
+
+[^1]: See CoinCryptoRank, "Blockchain Interoperability and Cross-Chain Solutions 2025" (documenting leading cross-chain bridges like Wormhole, LayerZero, and Axelar).
 
 Interoperability means two things: OIC agents can interact with external parties, and external parties can interact with OIC agents. Both directions require careful design.
 
@@ -55,7 +57,9 @@ OIC can incorporate external reputation into risk assessment. A counterparty wit
 
 ### Legal Identity
 
-For certain interactions, OIC agents may need to connect to legal identity—passports, business registrations, corporate filings.
+For certain interactions, OIC agents may need to connect to legal identity—passports, business registrations, corporate filings.[^2]
+
+[^2]: See SEI Blog, "What Is Blockchain Interoperability? 2025 Guide to Cross-Chain Architecture" (December 2025), documenting ZK light clients for cross-chain bridges.
 
 This is particularly relevant for:
 - Opening bank accounts
@@ -106,7 +110,9 @@ OIC maintains a regulatory database that maps requirements to activities. Agents
 
 ## Cross-Framework Interactions
 
-If other AI agent frameworks emerge, OIC can establish interoperability:
+If other AI agent frameworks emerge, OIC can establish interoperability:[^3]
+
+[^3]: See Blockchain Council, "How Will Cross-Chain Interoperability Shape Blockchain in 2025?" (documenting CCIP, IBC, and LayerZero protocols).
 
 ### Standard Harmonization
 
@@ -232,4 +238,5 @@ The strategy is open but cautious. OIC welcomes connection while protecting its 
 
 *Chapter 10 draft completed: February 22, 2026*
 *Expanded: February 23, 2026*
-*Word count: approximately 1,450 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,550 words (added citations)*
