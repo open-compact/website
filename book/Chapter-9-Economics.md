@@ -18,7 +18,9 @@ This chapter covers OIC's economic sustainability:
 
 ## The Economic Challenge
 
-A legal framework must be economically sustainable. It needs resources to operate—verification, governance, dispute resolution, development. These resources must come from somewhere.
+A legal framework must be economically sustainable. It needs resources to operate—verification, governance, dispute resolution, development. These resources must come from somewhere.[^2]
+
+[^2]: See Springer Nature, "An Interdisciplinary Approach to the Coordination Layer of DAOs and the Design of Token Economies" (2025), analyzing tokenomics design questions including token release schedules and distribution mechanisms.
 
 OIC's economic model is designed to be self-sustaining without creating perverse incentives. The framework should benefit all participants, not extract value from them.
 
@@ -26,7 +28,9 @@ The challenge is significant. Traditional legal frameworks rely on state power�
 
 ## Tokenomics
 
-OIC uses a native token for several functions:
+OIC uses a native token for several functions:[^1]
+
+[^1]: See Quecko, "Tokenomics Design in 2025: Building Sustainable Crypto Economies" (July 2025), documenting sustainable tokenomics models that align incentives and drive long-term growth.
 
 ### Staking
 
@@ -298,4 +302,5 @@ The key principle is simple: everyone benefits when the framework succeeds. This
 
 *Chapter 9 draft completed: February 22, 2026*
 *Expanded: February 23, 2026*
-*Word count: approximately 1,850 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,900 words (added citations)*
