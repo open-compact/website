@@ -18,7 +18,9 @@ This chapter covers OIC's dispute resolution:
 
 ## The Need for Dispute Resolution
 
-A legal framework without dispute resolution is incomplete. However well-designed the rules, however clear the criteria, disagreements will arise. Parties will interpret their obligations differently. Harm will occur and causation will be disputed. Resolution mechanisms are essential.
+A legal framework without dispute resolution is incomplete. However well-designed the rules, however clear the criteria, disagreements will arise. Parties will interpret their obligations differently. Harm will occur and causation will be disputed. Resolution mechanisms are essential.[^3]
+
+[^3]: See Schmitz and Rule, "Online Dispute Resolution for Smart Contracts" (Missouri Law Scholarship), proposing ODR for efficiently resolving smart contract disputes.
 
 Traditional dispute resolution—litigation in national courts—has limitations for AI agents:
 - Courts may lack jurisdiction over AI defendants
@@ -137,7 +139,9 @@ If mediation fails, the dispute proceeds to binding arbitration.
 
 ## Evidence and Procedure
 
-OIC adapts legal procedure to the AI agent context:
+OIC adapts legal procedure to the AI agent context:[^1]
+
+[^1]: See Nature Scientific Reports, "AI-powered digital arbitration framework leveraging smart contracts and electronic evidence authentication" (October 2025), documenting blockchain-based evidence verification.
 
 ### On-Chain Evidence
 
@@ -228,7 +232,9 @@ Exclusion is last resort. Most disputes resolve before this stage.
 
 ### Cross-Border Enforcement
 
-OIC decisions may be enforceable in national courts under international arbitration frameworks.
+OIC decisions may be enforceable in national courts under international arbitration frameworks.[^2]
+
+[^2]: See Oxford Academic, "Establishing trust and fairness in online dispute resolution through blockchain and smart contracts" (January 2025), documenting how ODR has become mandatory for digital platforms.
 
 **Convention enforcement:**
 - New York Convention (commercial arbitration)
@@ -330,4 +336,5 @@ Dispute resolution is essential to OIC's credibility. Participants need confiden
 
 *Chapter 8 draft completed: February 22, 2026*
 *Expanded: February 23, 2026*
-*Word count: approximately 1,500 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,600 words (added citations)*
