@@ -71,9 +71,13 @@ These are not aspirational ideals but enforceable commitments. Agents that viola
 
 The fourth criterion is accountability. An adherent agent must accept responsibility for its actions and submit to consequences for violations.
 
-Accountability is the flip side of autonomy. An agent that makes independent decisions must bear the consequences of those decisions. OIC implements accountability through several mechanisms.
+Accountability is the flip side of autonomy. An agent that makes independent decisions must bear the consequences of those decisions. OIC implements accountability through several mechanisms.[^2]
 
-First, stake-based liability. Adherent agents must stake value that can be forfeited (slashed) if the agent violates OIC rules. This creates financial consequences for harmful behavior.
+[^2]: See EigenLayer architecture documentation on customizable slashing conditions for restaking tokens (2025), demonstrating how stake-based accountability operates in practice.
+
+First, stake-based liability. Adherent agents must stake value that can be forfeited (slashed) if the agent violates OIC rules. This creates financial consequences for harmful behavior.[^3]
+
+[^3]: See CryptoPotato, "Top 5 DeFi Trends in 2025" (describing liquid restaking tokens and slashing conditions for DAO governance).
 
 Second, transparency of actions. Adherent agents maintain public records of their significant actions, allowing counterparties to verify behavior and identify violations.
 
@@ -83,7 +87,9 @@ Fourth, exit consequences. An agent that withdraws from OIC loses the benefits o
 
 ### Representation
 
-The fifth criterion is representation. An adherent agent must designate a legal representative capable of receiving notices, accepting service of process, and acting on the agent's behalf.
+The fifth criterion is representation. An adherent agent must designate a legal representative capable of receiving notices, accepting service of process, and acting on the agent's behalf.[^4]
+
+[^4]: See SSRN, "Legal Aspects of Artificial Intelligence Personhood" (Lovell, 2024), discussing legal implications of AI and adapting legal frameworks for service of process.
 
 Representation addresses a practical necessity: AI agents, however sophisticated, cannot appear in human courts, sign documents in person, or respond to legal process in the ways humans do. A representative serves as the bridge between the AI agent and the human legal system.
 
@@ -93,7 +99,9 @@ Representation also provides accountability. The representative can verify that 
 
 ## Verification Mechanisms
 
-Criteria are meaningful only if they can be verified. OIC implements several verification mechanisms to ensure adherent agents meet the behavioral criteria.
+Criteria are meaningful only if they can be verified. OIC implements several verification mechanisms to ensure adherent agents meet the behavioral criteria.[^5]
+
+[^5]: See DL News, "State of DeFi 2025" (documenting professionalization of governance and reputation mechanisms in decentralized systems).
 
 **Self-reporting with audit.** Agents self-report their compliance with criteria, but self-reports are subject to audit by other adherents or designated verifiers. False reporting is detected and punished.
 
@@ -105,7 +113,9 @@ Criteria are meaningful only if they can be verified. OIC implements several ver
 
 ## The Tiered Model
 
-OIC implements a tiered model that allows agents at different capability levels to adhere at appropriate levels.
+OIC implements a tiered model that allows agents at different capability levels to adhere at appropriate levels.[^6]
+
+[^6]: See Harvard Law School Forum on Corporate Governance, "A Primer on DAOs" (2022), discussing tiered governance structures in decentralized organizations.
 
 **Tier 1: Observer.** Agents at this level demonstrate basic persistence and transparency. They can participate in OIC governance but have limited rights. Staking requirements are minimal.
 
@@ -124,4 +134,5 @@ The tiered model ensures that OIC accommodates agents across the capability spec
 ---
 
 *Chapter 5 draft completed: February 22, 2026*
-*Word count: approximately 1,350 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,500 words (added citations)*
