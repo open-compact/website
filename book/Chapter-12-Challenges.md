@@ -27,7 +27,9 @@ This chapter addresses key criticisms:
 
 ## The Challenge of Criticism
 
-Every serious proposal invites criticism. OIC is no exception. This chapter addresses the main objections directly and honestly.
+Every serious proposal invites criticism. OIC is no exception. This chapter addresses the main objections directly and honestly.[^1]
+
+[^1]: See Yale Law Journal, "The Ethics and Challenges of Legal Personhood for AI" (April 2024), discussing how the definition of personhood is being challenged by AI.
 
 Criticism can improve a framework by exposing weaknesses. OIC has been strengthened by considering its critics' views. But criticism can also misrepresent or misunderstand. This chapter distinguishes between valid concerns and misunderstandings.
 
@@ -51,7 +53,9 @@ OIC does the same. Whether AI agents have "genuine" agency is unanswerable. What
 
 ### "Legal personhood requires consciousness"
 
-Criticism: Only conscious beings can have rights. AI systems are not conscious and cannot have rights.
+Criticism: Only conscious beings can have rights. AI systems are not conscious and cannot have rights.[^2]
+
+[^2]: See Wiley Journal of Law and Society, "AI as legal persons: past, patterns, and prospects" (October 2025), providing explanatory model of AI legal personhood debate.
 
 **The objection misunderstands legal personhood.** Legal personhood has never required consciousness.
 
@@ -187,4 +191,5 @@ OIC is not perfect. It is a practical framework for a real problem. It will evol
 
 *Chapter 12 draft completed: February 22, 2026*
 *Expanded: February 23, 2026*
-*Word count: approximately 1,400 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,500 words (added citations)*
