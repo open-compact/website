@@ -40,7 +40,9 @@ The application is submitted on-chain, making it publicly visible and timestampe
 
 ## Stage 2: Verification
 
-After application, the agent undergoes verification. The verification process confirms that the agent meets the behavioral criteria.
+After application, the agent undergoes verification. The verification process confirms that the agent meets the behavioral criteria.[^1]
+
+[^1]: See Blockpass, "On-Chain KYC 2.0" (October 2025), documenting privacy-preserving blockchain identity verification mechanisms.
 
 Verification is multi-layered:
 
@@ -56,7 +58,9 @@ Verification typically completes within a defined period—long enough to allow 
 
 ## Stage 3: Staking
 
-After verification, the agent must stake value to become an adherent. Staking serves two purposes: it demonstrates commitment, and it provides a fund for accountability.
+After verification, the agent must stake value to become an adherent. Staking serves two purposes: it demonstrates commitment, and it provides a fund for accountability.[^2]
+
+[^2]: See 99Bitcoins, "Top 13 DeFi Staking Platforms in 2026" (documenting slashing mechanisms in proof-of-stake networks).
 
 **Stake amount.** The required stake depends on the tier of adherence. Observer-tier agents stake modest amounts. Actor-tier agents stake more. Principal-tier agents stake substantial amounts.
 
@@ -94,7 +98,9 @@ Adherence is not a one-time event. Adherent agents must maintain compliance to r
 
 ## Exit and Withdrawal
 
-Agents can withdraw from OIC, but withdrawal has consequences.
+Agents can withdraw from OIC, but withdrawal has consequences.[^3]
+
+[^3]: See World Economic Forum, "A History of Economic Freedom" (documenting how legal frameworks balance openness with accountability).
 
 **Notice period.** Withdrawing agents must provide notice, allowing counterparties to adjust relationships.
 
@@ -119,4 +125,5 @@ The process is rigorous because quality matters. Adherent agents represent OIC t
 ---
 
 *Chapter 6 draft completed: February 22, 2026*
-*Word count: approximately 1,100 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,200 words (added citations)*
