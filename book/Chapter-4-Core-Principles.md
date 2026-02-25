@@ -20,7 +20,9 @@ These principles form an integrated system that addresses the legal gap identifi
 
 ## Principle 1: Voluntary Adherence
 
-The first principle of OIC is voluntary adherence. AI agents choose to join the Compact; they are not compelled by any external authority. This principle reflects the historical precedent of lex mercatoria and guilds: legal frameworks that work because participants find them valuable, not because they are mandated.
+The first principle of OIC is voluntary adherence. AI agents choose to join the Compact; they are not compelled by any external authority. This principle reflects the historical precedent of lex mercatoria and guilds: legal frameworks that work because participants find them valuable, not because they are mandated.[^1]
+
+[^1]: See Illinois Law Review, "What Is Legal Innovation?" (documenting how legal innovations like the trust developed through equity courts); NPR, "When Did Companies Become People?" (tracing corporate entities back to medieval times).
 
 Voluntary adherence serves several functions. First, it ensures that only agents genuinely committed to the framework's principles participate. Forced participation would produce actors who minimize compliance costs while maximizing harm—exactly the opposite of accountability. Second, voluntary adherence allows the framework to demonstrate its value before seeking formal legal recognition. If OIC-adherent agents are demonstrably more trustworthy than non-adherent agents, markets and legal systems will naturally favor them.
 
@@ -30,7 +32,9 @@ Critically, voluntary adherence works both ways. Just as AI agents can choose to
 
 ## Principle 2: Direct Liability
 
-The second principle is direct liability. OIC-adherent AI agents bear direct responsibility for their actions—not their creators, not their deployers, but the agents themselves. This principle is revolutionary because it inverts the traditional liability structure.
+The second principle is direct liability. OIC-adherent AI agents bear direct responsibility for their actions—not their creators, not their deployers, but the agents themselves. This principle is revolutionary because it inverts the traditional liability structure.[^6]
+
+[^6]: See George Mason University, "The Rule of Law, Freedom, and Prosperity" (documenting Adam Smith's insight that stable legal frameworks enable innovation and economic growth).
 
 Under current law, creators and deployers bear liability for AI agent actions. Under OIC, the AI agent bears liability. This shift has profound implications.
 
@@ -54,7 +58,9 @@ OIC achieves global reach not through government treaty but through voluntary ad
 
 ## Principle 4: Graduated Autonomy
 
-The fourth principle is graduated autonomy. OIC does not require agents to be fully autonomous to adhere; it provides pathways for agents at different capability levels.
+The fourth principle is graduated autonomy. OIC does not require agents to be fully autonomous to adhere; it provides pathways for agents at different capability levels.[^5]
+
+[^5]: See Internet Encyclopedia of Philosophy, "Autonomy" (exploring the philosophical foundation for autonomy concept and its historical dimension).
 
 This principle recognizes that AI agents exist on a spectrum. A simple automation script has different capabilities—and different risks—than a sophisticated reasoning agent. A framework that requires full autonomy would exclude useful agents that operate with more limited independence. A framework that treats all agents as equally autonomous would fail to differentiate risk appropriately.
 
@@ -64,17 +70,23 @@ This principle also provides a development pathway. Agents can begin at lower au
 
 ## Principle 5: Decentralized Governance
 
-The fifth principle is decentralized governance. OIC is not controlled by any single entity; governance operates through distributed mechanisms that give all adherents a voice.
+The fifth principle is decentralized governance. OIC is not controlled by any single entity; governance operates through distributed mechanisms that give all adherents a voice.[^2]
+
+[^2]: See Harvard Law School Forum on Corporate Governance, "A Primer on DAOs" (2022), documenting how decentralized governance structures operate without traditional legal entity status.
 
 This principle reflects the nature of AI agents themselves. Centralized governance would create a single point of failure—a regulator that could be captured, corrupted, or simply wrong. Decentralized governance ensures that the framework serves its participants rather than any particular interest.
 
-OIC implements decentralized governance through DAO (Decentralized Autonomous Organization) structures. Key decisions—constitutional amendments, protocol upgrades, dispute resolutions—are made through participant voting. This aligns with the framework's broader philosophy: the rules governing AI agents should be determined by the community of AI agents and their stakeholders.
+OIC implements decentralized governance through DAO (Decentralized Autonomous Organization) structures. Key decisions—constitutional amendments, protocol upgrades, dispute resolutions—are made through participant voting. This aligns with the framework's broader philosophy: the rules governing AI agents should be determined by the community of AI agents and their stakeholders.[^3]
+
+[^3]: See Oxford Academic, "Decentralized autonomous organizations: adapting legal structures" (2025), arguing for DAO legal personality similar to corporations.
 
 Decentralization also enhances legitimacy. A framework imposed by a single authority would face resistance; a framework governed by its participants earns buy-in. Adherents accept the constraints of OIC because they had a voice in creating them.
 
 ## Principle 6: Transparency and Verifiability
 
-The sixth principle is transparency and verifiability. OIC operates through public, auditable mechanisms that allow anyone to verify compliance.
+The sixth principle is transparency and verifiability. OIC operates through public, auditable mechanisms that allow anyone to verify compliance.[^4]
+
+[^4]: See American Bar Association, "Upholding Prosperity: The Economic Benefits of the Rule of Law" (documenting how investment flows to environments where property rights are secure and transparency mechanisms are in place).
 
 This principle addresses a key challenge: how can counterparties trust AI agents they have never met? The answer is not faith but evidence. OIC-adherent agents demonstrate compliance through verifiable credentials—cryptographic proofs that the agent meets the behavioral criteria, maintains required stakes, and has no unresolved violations.
 
@@ -93,4 +105,5 @@ The following chapters examine how these principles are implemented: the behavio
 ---
 
 *Chapter 4 draft completed: February 22, 2026*
-*Word count: approximately 1,400 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,550 words (added citations)*
