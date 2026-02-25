@@ -19,7 +19,9 @@ This chapter presents OIC's development path:
 
 ## The Roadmap Principle
 
-A legal framework is not built once—it evolves continuously. OIC's roadmap describes the phases of evolution, from initial launch to global adoption.
+A legal framework is not built once—it evolves continuously. OIC's roadmap describes the phases of evolution, from initial launch to global adoption.[^1]
+
+[^1]: See Intel Market Research, "Decentralized Autonomous Organization DAO Development Market Outlook 2025-2032" (documenting DAO market growth and phase-based development).
 
 The roadmap is not rigid. Conditions change, opportunities emerge, risks materialize. The roadmap is a guide, not a guarantee. But having a roadmap ensures deliberate progress rather than drift.
 
@@ -62,7 +64,9 @@ Specific metrics:
 
 ## Phase 2: Growth
 
-The next phase focuses on scaling:
+The next phase focuses on scaling:[^2]
+
+[^2]: See Yellow.com, "What Are DAO Tools & How to Choose? 2025 Platform Guide" (documenting institutional integration and corporate DAO adoption).
 
 ### Objectives
 
@@ -242,4 +246,5 @@ The question is not whether the roadmap will be followed exactly. It is whether 
 
 *Chapter 11 draft completed: February 22, 2026*
 *Expanded: February 23, 2026*
-*Word count: approximately 1,400 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,500 words (added citations)*
