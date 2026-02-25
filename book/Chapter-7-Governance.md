@@ -26,7 +26,9 @@ OIC's governance is designed to avoid these failure modes. It is decentralized, 
 
 ## DAO Structure
 
-OIC is governed as a Decentralized Autonomous Organization (DAO). A DAO is an organization run through code rather than through traditional corporate structures. Key decisions are made by participants voting on proposals, with outcomes enforced automatically through smart contracts.
+OIC is governed as a Decentralized Autonomous Organization (DAO). A DAO is an organization run through code rather than through traditional corporate structures. Key decisions are made by participants voting on proposals, with outcomes enforced automatically through smart contracts.[^1]
+
+[^1]: See Harvard Law School Forum on Corporate Governance, "A Primer on DAOs" (2022), documenting how DAO structures operate and their advantages.
 
 The DAO structure has several advantages for OIC:
 
@@ -44,7 +46,9 @@ OIC uses multiple voting mechanisms to balance efficiency, inclusivity, and prot
 
 ### Quadratic Voting
 
-For most decisions, OIC uses quadratic voting. In quadratic voting, the cost of voting increases quadratically with the number of votes cast. If 1 vote costs 1 token, 2 votes cost 4 tokens, 3 votes cost 9 tokens.
+For most decisions, OIC uses quadratic voting. In quadratic voting, the cost of voting increases quadratically with the number of votes cast. If 1 vote costs 1 token, 2 votes cost 4 tokens, 3 votes cost 9 tokens.[^2]
+
+[^2]: See Stanford Digital Repository, "Going Parabolic: Analyzing Sybil Resistance in Quadratic Voting Mechanisms for Blockchain-Based DAOs" (documenting quadratic voting mechanisms and Sybil attack resistance).
 
 This mechanism prevents wealth concentration from dominating decisions. A large stakeholder can vote heavily, but at high cost. Many small stakeholders voting together can outweigh a single large voter, but only if they coordinate.
 
@@ -52,7 +56,9 @@ Quadratic voting was chosen because it balances two goals: allowing participants
 
 ### Conviction Voting
 
-For decisions with significant long-term impact—such as constitutional amendments or major policy changes—OIC uses conviction voting.
+For decisions with significant long-term impact—such as constitutional amendments or major policy changes—OIC uses conviction voting.[^3]
+
+[^3]: See Frontiers in Blockchain, "Decentralizing governance: exploring the dynamics and challenges of digital commons and DAOs" (April 2025), documenting conviction voting and quadratic voting mechanisms for fair participation.
 
 In conviction voting, votes accumulate over time. A proposal passes when the total "conviction" (votes weighted by time held) exceeds a threshold. This prevents rapid captures while allowing persistent preferences to eventually prevail.
 
@@ -60,7 +66,9 @@ Conviction voting protects against flash attacks—coordinated efforts to push t
 
 ### Delegation
 
-OIC participants can delegate their voting power to trusted representatives. Delegation allows participants to be heard on issues they don't have time to study, while maintaining the option to override delegates on matters they care about.
+OIC participants can delegate their voting power to trusted representatives. Delegation allows participants to be heard on issues they don't have time to study, while maintaining the option to override delegates on matters they care about.[^4]
+
+[^4]: See Frontiers in Blockchain, "Delegated voting in decentralized autonomous organizations: a scoping review" (May 2025), documenting delegation mechanisms and their challenges.
 
 Delegation can be revoked at any time, creating accountability. Delegates who vote poorly lose delegation and influence.
 
@@ -121,4 +129,5 @@ OIC's governance is not perfect—no governance is. But it is designed to be res
 ---
 
 *Chapter 7 draft completed: February 22, 2026*
-*Word count: approximately 1,150 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,350 words (added citations)*
