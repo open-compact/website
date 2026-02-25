@@ -54,7 +54,17 @@ The enforcement gap appears in several forms:
 
 **Remedies that don't fit.** Traditional remedies—injunctions, damages, specific performance—assume a human actor who can be compelled or punished. An AI agent cannot be incarcerated. Damages may not change an agent's behavior—it has no money, no assets, no personal stake in the outcome. The remedy toolkit is ill-suited to AI agents.⁶
 
-The enforcement gap creates a accountability vacuum. Actors who deploy AI agents can structure their operations to minimize exposure—using offshore entities, limiting assets, insulating decision-making across multiple systems. The victims have no recourse.
+The enforcement gap creates an accountability vacuum. Actors who deploy AI agents can structure their operations to minimize exposure—using offshore entities, limiting assets, insulating decision-making across multiple systems. The victims have no recourse.
+
+## Real-World Examples: When AI Causes Harm
+
+The problems described above are not hypothetical. Recent cases demonstrate the enforcement gap in action:
+
+**Character.AI Lawsuits (2024-2025).** In October 2024, Megan Garcia filed suit in U.S. District Court against Character Technologies Inc., alleging that her son's interactions with an AI chatbot caused his mental health to decline until he committed suicide. The amended complaint (July 2025) alleges strict product liability, negligence, wrongful death, and violations of Florida's Deceptive and Unfair Trade Practices Act.¹ The FTC initiated a formal inquiry in September 2025 into how generative AI developers mitigate harms to minors.² Multiple similar lawsuits have been filed, with families alleging the company "intentionally created addictive, human-like interactions" while failing to include basic safeguards.³
+
+**Uber Autonomous Vehicle Fatality (2018).** In March 2018, an autonomous Uber vehicle in Arizona failed to recognize pedestrian Elaine Herzberg, resulting in the first pedestrian death by a self-driving car. Investigations revealed Uber had disabled emergency braking. The backup driver was charged with negligent homicide and sentenced to probation. Uber faced no criminal charges—"there was no basis for criminal liability" for the corporation.⁴ The victim had no direct defendant: the AI system could not be held accountable, the company escaped liability, and only a human backup driver faced consequences.
+
+These cases reveal the structural problem: AI causes harm, but the legal system has no appropriate defendant. The AI cannot be sued. The company structures itself to minimize liability. Only human actors face consequences—even when they had no real control.
 
 ## The Cost of Inaction
 
@@ -100,7 +110,18 @@ The following chapters examine how legal innovation has addressed similar proble
 
 ⁷ CPO Magazine, "2026 AI Legal Forecast: From Innovation to Compliance," available at https://www.cpomagazine.com/data-protection/2026-ai-legal-forecast-from-innovation-to-compliance/.
 
+⁸ Epstein Becker Green, "Novel Lawsuits Allege AI Chatbots Encouraged Minors' Suicides," available at https://www.healthlawadvisor.com/novel-lawsuits-allege-ai-chatbots-encouraged-minors-suicides-mental-health-trauma-considerations-for-stakeholders.
+
+⁹ American Bar Association, "AI Chatbot Lawsuits and Teen Mental Health," available at https://www.americanbar.org/groups/health_law/news/2025/ai-chatbot-lawsuits-teen-mental-health/.
+
+¹⁰ Social Media Victims Law Center, "Character.AI Lawsuits - December 2025 Update," available at https://socialmediavictims.org/character-ai-lawsuits/.
+
+¹¹ BBC News, "Uber's self-driving operator charged over fatal crash," available at https://www.bbc.com/news/technology-54175359.
+
+¹² Wikipedia, "Death of Elaine Herzberg," available at https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg.
+
 ---
 
 *Chapter 1 draft completed: February 22, 2026*
-*Word count: approximately 1,700 words*
+*Revised: February 24, 2026*
+*Word count: approximately 1,900 words*
