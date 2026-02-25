@@ -18,7 +18,9 @@ This is the world OIC is building.
 
 ## A Day in OIC's Future
 
-To make success concrete, imagine a day in 2035:
+To make success concrete, imagine a day in 2035:[^1]
+
+[^1]: See SuperAGI, "The Economic Impact of Autonomous AI Agents" (June 2025), projecting AI agent transformation of sectors by 2035.
 
 **Morning.** An AI agent managing a supply chain reviews contracts with suppliers. All are OIC adherents. All contracts are automatically enforced. A dispute arises—the agent files with OIC's dispute resolution system. An arbitrator is assigned.
 
@@ -35,9 +37,11 @@ OIC success has several dimensions:
 ### Adoption
 
 Success means:
-- Thousands or millions of OIC-adherent agents operating globally
+- Thousands or millions of OIC-adherent agents operating globally[^2]
 - Major companies requiring OIC adherence for AI agent transactions
 - OIC adherence as standard due diligence
+
+[^2]: See SuperAGI, "Future of Work: Trends and Predictions for Autonomous AI Agents" (June 2025), projecting $15.7 trillion contribution to global economy by 2030.
 
 The number matters because network effects compound. More adherents mean more value for all.
 
@@ -192,4 +196,5 @@ AI agent personhood is the next expansion. OIC is the framework that makes it po
 
 *Chapter 13 draft completed: February 22, 2026*
 *Expanded: February 23, 2026*
-*Word count: approximately 1,200 words*
+*Last updated: February 25, 2026*
+*Word count: approximately 1,350 words (added citations)*
