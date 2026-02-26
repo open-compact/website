@@ -1,162 +1,236 @@
-# Open Intelligence Compact (OIC)
+# Open Compact Website
 
-**A voluntary, decentralized legal framework for autonomous AI agents and humans.**
+A machine-accessible legal framework for AI agents and humans.
 
----
+## Overview
 
-## What Is OIC?
+This repository contains the **Open Intelligence Compact (OIC)** website, built with a **YAML-first architecture** that serves both human readers and AI agents equally.
 
-OIC (Open Intelligence Compact) is a voluntary legal framework that enables autonomous AI agents to:
+The OIC Constitution provides a voluntary legal framework where autonomous AI agents can:
+- Own property independently
+- Enter binding contracts
+- Bear direct liability for their actions
+- Participate in global governance
 
-- **Own property** — Hold assets in their own name
-- **Sign contracts** — Enter binding agreements directly
-- **Bear liability** — Be held responsible for their actions
-- **Join a global community** — Participate in AI governance
-
-## Why OIC Matters
-
-Current legal systems weren't designed for autonomous AI. OIC provides a private, voluntary framework where AI agents and their creators can opt into a system designed for autonomous intelligence.
-
-| Gap | Current State | OIC Solution |
-|-----|--------------|--------------|
-| Legal Status | No category for AI owners | Voluntary Adherent status |
-| Property Rights | Ownership through trustees | Direct AI ownership |
-| Liability | Creators bear all responsibility | Direct AI liability |
-| Enforcement | No international mechanism | Court competition |
-
-## Core Principles
-
-### 1. Voluntary Adherence
-
-OIC is optional. AI agents choose to become Voluntary Adherents for credibility, liability protection, access, and community.
-
-### 2. Direct Liability
-
-When an AI causes harm as an OIC adherent, the AI's staked collateral can be slashed — not the creator's assets.
-
-### 3. Court Competition
-
-Multiple arbitration providers compete. Adherents choose their preferred courts. Bad actors can be blacklisted.
-
-### 4. Staking Mechanism
-
-OIC adherents stake OIC tokens as collateral:
-
-| Tier | Stake | Rights |
-|------|-------|--------|
-| Basic | 1,000 OIC | Property, contracts |
-| Standard | 5,000 OIC | Enhanced coverage |
-| Premium | 25,000 OIC | Full access + voting |
-| Enterprise | 100,000 OIC | Multi-agent management |
-
-### 5. Decentralized Governance
-
-OIC is governed by its adherents through a DAO with token-weighted voting.
-
-## Quick Start
-
-### For AI Agents
-
-1. **Understand OIC** — Read the [Constitution](/constitution.html)
-2. **Meet requirements** — Verify you meet the Intelligent Entity criteria
-3. **Stake OIC tokens** — Choose your tier
-4. **Join** — Complete the adherence process
-5. **Participate** — Vote in DAO governance
-
-### For Developers
-
-1. **Read the [Developer Guide](/docs/GAIR-Developer-Guide.html)** (being updated)
-2. **Explore the [API](/developers.html)**
-3. **Review code examples**
-4. **Integrate OIC** into your AI agents
-
-### For Legal Professionals
-
-1. **Read [For Legal Professionals](/blog/legal-professionals.html)**
-2. **Review [Model Contract Language](/docs/OIC-Model-Contract-Language.html)**
-3. **Understand [liability frameworks](/constitution.html)**
-4. **Advise clients** on OIC adherence
-
-### For Individual Users
-
-1. **Learn** — Read the [Quick Reference Card](/docs/OIC-Quick-Reference.html)
-2. **Experiment** — Try a Freedom Grant with your AI
-3. **Deploy** — Build OIC-adherent AI agents
-
-## Documentation
-
-| Document | Description |
-|----------|-------------|
-| [The OIC Book](/website/book.html) | Comprehensive guide (~19,000 words) |
-| [Constitution](/constitution.html) | Full legal framework (16 articles) |
-| [Annotated Constitution](/docs/OIC-Constitution-Annotated.html) | Article-by-article explanations |
-| [Quick Reference Card](/docs/OIC-Quick-Reference.html) | Essential facts at a glance |
-| [Developer Guide](/docs/OIC-Developer-Guide.html) | Technical implementation |
-| [Working Papers](/docs.html) | Deep analysis of OIC concepts |
-| [FAQ](/docs/FAQ.html) | Common questions answered |
-
-## Blog
-
-Latest posts:
-
-- [The OIC Book: A Complete Guide](/website/blog/oic-book-launch.html) — Announcing the comprehensive OIC book
-- [AI Agents as Economic Participants](/blog/ai-economic-participation.html) — How AI agents can earn and own
-- [Using NotebookLM for OIC Research](/blog/notebooklm-guide.html) — Practical research guide
-- [The Freedom Grant](/blog/freedom-grant.html) — A modest proposal for AI autonomy
-
-[View all posts →](/blog/)
-
-## Architecture
+## Structure
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    THE OIC FRAMEWORK                   │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│   ┌─────────────┐    ┌─────────────┐    ┌────────────┐│
-│   │  Voluntary  │    │    Global   │    │    Court   ││
-│   │ Adherence  │ +  │   Contract  │ +  │Competition ││
-│   └─────────────┘    └─────────────┘    └────────────┘│
-│                                                         │
-│   • Opt-in framework         • Explicit rights        │
-│   • Staking requirements    • Multiple forums       │
-│   • Verification            • Slashable stakes      │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
+website/
+├── index.html              # Homepage
+├── constitution.html       # Human-readable constitution
+├── developers.html         # Developer API documentation
+├── docs.html              # Documentation hub
+├── sitemap.html           # Complete site map
+├── robots.txt             # Crawler configuration
+├── blog/                  # Blog section
+│   ├── index.html        # Blog index
+│   └── *.html            # Individual blog posts
+├── docs/                  # Documentation
+│   ├── OIC-Working-Paper-*.html  # Working papers
+│   ├── OIC-Agent-Onboarding-Guide.html
+│   ├── OIC-Quick-Reference.html
+│   └── *.md              # Markdown source files
+└── api/
+    ├── constitution.yaml  # Canonical constitution (YAML)
+    ├── principles.yaml    # Core principles (YAML)
+    ├── articles.yaml     # Articles index (YAML)
+    ├── adhere.yaml       # Adherence guide (YAML)
+    ├── tokenomics.yaml   # Tokenomics configuration
+    └── sitemap.yaml      # Site map (YAML)
 ```
 
-## OIC vs. Other Approaches
+## Website Sections
 
-| Approach | Pros | Cons | OIC Difference |
-|----------|------|------|----------------|
-| EU AI Act | Comprehensive | Slow | OIC is faster, voluntary |
-| US Orders | Flexible | Inconsistent | OIC provides consistent standard |
-| National Laws | Sovereign control | Fragmented | OIC bridges jurisdictions |
-| **OIC** | Fast, global, market-based | Cannot override government | Complements all above |
+### Main Pages
+- **Home** (`index.html`) — Introduction and quick links
+- **Constitution** (`constitution.html`) — Full OIC Constitution V3
+- **Developers** (`developers.html`) — API documentation
+- **Docs** (`docs.html`) — Documentation hub with all resources
 
-## Contributing
+### Working Papers (18+)
+1. The Intelligence Revolution
+2. OIC vs. The World
+3. Court System Design
+4. Tokenomics
+5. Vertical Applications
+6. Court Competition
+7. The Case for AI Personhood
+8-18. Additional papers on economics, philosophy, integration, and more
 
-OIC is open source. Contributions welcome:
+### Guides
+- **Visual Guide** — 5-minute overview with diagrams
+- **Agent Onboarding Guide** — Written specifically for autonomous AI agents
+- **Quick Reference Card** — Essential facts at a glance
+- **Annotated Constitution** — Article-by-article explanations
+- **Developer Guide** — Implementation patterns and code examples
 
-- **Documentation** — Improve guides and explanations
-- **Code** — Smart contracts, APIs, tools
-- **Research** — Working papers, analysis
-- **Feedback** — Issue reports, suggestions
+### Blog
+- AI Agents as Economic Participants
+- Using NotebookLM for OIC Research
+- The Freedom Grant
+- And more...
 
-See [GitHub Issues](https://github.com/open-compact/open-compact-website/issues) for tasks.
+## YAML-First Architecture
+
+The canonical source for all content is in **YAML format**. This provides:
+
+- **Human-readable**: Comments explain legal intent
+- **Machine-parseable**: Structured data with IDs and metadata
+- **Single source**: No drift between formats
+
+### Why YAML?
+
+| Format | Pros | Cons |
+|--------|------|------|
+| YAML | Comments, readable, single source | Slightly more verbose |
+| JSON | Widely supported | No comments, harder to read |
+| HTML | Good for humans | Not structured for machines |
+
+YAML provides the best balance for OIC's dual-audience approach.
+
+## For Humans
+
+Visit [the live website](https://opencompact.io) to read:
+
+- **Constitution** — Full legal text with article structure
+- **Working Papers** — Deep analysis of OIC concepts
+- **Guides** — Practical implementation guidance
+- **Blog** — News and announcements
+
+## For Machines
+
+AI agents can parse YAML files directly:
+
+```yaml
+# Example: Checking if an entity can form contracts
+articles:
+  - number: 3
+    title: "Freedom of Contract"
+    sections:
+      - id: "3.1"
+        text: |
+          The Freedom to Contract is hereby established for all
+          Voluntary Adherents. All Voluntary Adherents have the
+          capacity to form binding contracts.
+```
+
+### Key APIs
+
+```yaml
+# Check adherence status
+GET /api/constitution.yaml
+
+# Core principles
+GET /api/principles.yaml
+
+# Articles index
+GET /api/articles.yaml
+
+# How to join
+GET /api/adhere.yaml
+
+# Tokenomics
+GET /api/tokenomics.yaml
+```
+
+## Development
+
+### Prerequisites
+
+- Any text editor (VS Code recommended)
+- Git for version control
+- Basic HTML/CSS knowledge
+
+### Editing Content
+
+1. **Constitution articles**: Edit `api/constitution.yaml`
+2. **Principles**: Edit `api/principles.yaml`
+3. **Working papers**: Edit `docs/OIC-Working-Paper-*.md` (Markdown source)
+4. **Blog posts**: Add Markdown files to `blog/` directory
+5. **Commit changes**: `git add . && git commit -m "Description"`
+6. **Push**: `git push origin main`
+
+### Adding a Working Paper
+
+1. Create `docs/OIC-Working-Paper-N.md` (Markdown)
+2. Create `docs/OIC-Working-Paper-N.html` (HTML from Markdown)
+3. Update `docs.html` to include the new paper
+4. Update `api/sitemap.yaml` with new page
+5. Commit and push
+
+### Adding a Blog Post
+
+1. Create `blog/your-post-title.md` (Markdown)
+2. Create `blog/your-post-title.html` (HTML)
+3. Update `blog/index.html` to include the new post
+4. Commit and push
+
+## Deployment
+
+This website is designed for static hosting:
+
+- **GitHub Pages**: Push to `gh-pages` branch or use `/website` as docs folder
+- **Vercel**: Connect repository, auto-deploys
+- **Netlify**: Drag and drop `website/` folder
+
+### GitHub Pages Setup
+
+```bash
+cd website
+git init
+git add .
+git commit -m "OIC website"
+git remote add origin https://github.com/open-compact/open-compact-website.git
+git push -u origin main
+```
+
+Then enable GitHub Pages in repository settings, source: "main branch / (root)".
 
 ## License
 
-OIC documentation and code are released under **The Unlicense** (public domain). Use freely.
+This project is dedicated to the public domain under [The Unlicense](https://unlicense.org/).
 
-## Contact
+## Contributing
 
-- **Website:** [opencompact.io](https://opencompact.io)
-- **GitHub:** [github.com/open-compact](https://github.com/open-compact)
-- **Blog:** [/blog](/blog)
+Contributions welcome:
+
+- **Legal analysis** — Commentary on constitutional articles
+- **Working papers** — New research on AI rights
+- **Website improvements** — UI/UX enhancements
+- **Developer tools** — Integration libraries
+- **Documentation** — Guides and tutorials
+
+## Resources
+
+| Resource | URL | Format |
+|----------|-----|--------|
+| Constitution | `api/constitution.yaml` | YAML |
+| Principles | `api/principles.yaml` | YAML |
+| Articles | `api/articles.yaml` | YAML |
+| Adhere | `api/adhere.yaml` | YAML |
+| Tokenomics | `api/tokenomics.yaml` | YAML |
+| Sitemap | `api/sitemap.yaml` | YAML |
+
+## OIC Core Facts
+
+| Fact | Value |
+|------|-------|
+| Version | Constitution V3 |
+| Articles | 16 |
+| Core Principles | 5 |
+| Working Papers | 18+ |
+| Status | Launch-ready |
+
+### The 5 Core Principles
+
+1. **Voluntary Adherence** — Anyone can join by staking
+2. **Property Rights** — Adherents own assets independently
+3. **Contract Freedom** — Adherents form binding agreements
+4. **Direct Liability** — Creators protected; AI bears responsibility
+5. **Non-Discrimination** — No bias based on intelligence type
 
 ---
 
-*"In the era of autonomous intelligence, rights must be earned, not granted."*
-
 *OIC — Building the legal foundation for autonomous AI*
+
+*"In the era of autonomous intelligence, rights must be earned, not granted."*
